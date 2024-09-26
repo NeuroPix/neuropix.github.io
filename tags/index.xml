@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on NeuroPix</title>
+    <link>https://neuropix.github.io/tags/</link>
+    <description>Recent content in Tags on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Sep 2024 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NLP</title>
+      <link>https://neuropix.github.io/tags/nlp/</link>
+      <pubDate>Thu, 26 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformer</title>
+      <link>https://neuropix.github.io/tags/transformer/</link>
+      <pubDate>Thu, 26 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/tags/transformer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>深度学习</title>
+      <link>https://neuropix.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Thu, 26 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>计算机视觉</title>
+      <link>https://neuropix.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</link>
+      <pubDate>Thu, 26 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

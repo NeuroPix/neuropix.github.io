@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer on NeuroPix</title>
+    <link>https://neuropix.github.io/tags/transformer/</link>
+    <description>Recent content in Transformer on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Sep 2024 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transformer 架构的演变与应用</title>
+      <link>https://neuropix.github.io/posts/transformer-evolution-and-application/</link>
+      <pubDate>Thu, 26 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/posts/transformer-evolution-and-application/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;在深度学习的历史长河中，Transformer 架构的出现无疑是一个重要的里程碑。自 2017 年由 Vaswani 等人在论文《Attention is All You Need》中提出以来，Transformer 迅速在自然语言处理（NLP）领域崭露头角，并逐渐扩展到计算机视觉、语音识别等多个领域。本文将探讨 Transformer 的演变过程、其在不同应用中的重要性以及未来的发展趋势。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-transformer-的基本概念&#34;&gt;1. Transformer 的基本概念&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-自注意力机制&#34;&gt;1.1 自注意力机制&lt;/h3&gt;&#xA;&lt;p&gt;自注意力机制是 Transformer 的核心创新之一。它允许模型在处理输入序列时，动态地关注序列中的不同部分，从而捕捉长距离依赖关系。这一机制使得模型能够更加灵活地理解上下文信息。&lt;/p&gt;&#xA;&lt;h3 id=&#34;12-transformer-架构&#34;&gt;1.2 Transformer 架构&lt;/h3&gt;&#xA;&lt;p&gt;Transformer 由编码器（Encoder）和解码器（Decoder）组成：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;编码器&lt;/strong&gt;：将输入序列编码为上下文表示。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;解码器&lt;/strong&gt;：根据编码器的输出生成目标序列。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://neuropix.github.io/images/transformer-evolution-and-application/transformer-architecture.png&#34;&#xA;    alt=&#34;Transformer 架构示意图&#34; height=&#34;400&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Transformer 架构示意图&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;2-transformer-的演变&#34;&gt;2. Transformer 的演变&lt;/h2&gt;&#xA;&lt;h3 id=&#34;21-早期模型bert-和-gpt&#34;&gt;2.1 早期模型：BERT 和 GPT&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;BERT (Bidirectional Encoder Representations from Transformers)&lt;/strong&gt;：引入了双向编码，利用 Masked Language Model 进行预训练，广泛应用于文本分类和问答系统。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GPT (Generative Pre-trained Transformer)&lt;/strong&gt;：侧重于生成任务，采用单向自回归的方式，适用于文本生成和对话系统。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;22-最近的发展vision-transformer-vit&#34;&gt;2.2 最近的发展：Vision Transformer (ViT)&lt;/h3&gt;&#xA;&lt;p&gt;Vision Transformer 将 Transformer 架构引入计算机视觉领域，通过将图像划分为固定大小的块，并将其视为序列输入，显著提升了图像分类性能。ViT 的成功表明 Transformer 也可以有效处理视觉数据。&lt;/p&gt;&#xA;&lt;h3 id=&#34;23-其他变种&#34;&gt;2.3 其他变种&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;T5 (Text-to-Text Transfer Transformer)&lt;/strong&gt;：将所有 NLP 任务统一为文本到文本的格式，提升了任务间的迁移学习能力。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Swin Transformer&lt;/strong&gt;：提出了一种分层结构，能够处理不同分辨率的输入，适用于图像分割和目标检测。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;3-transformer-的应用&#34;&gt;3. Transformer 的应用&lt;/h2&gt;&#xA;&lt;h3 id=&#34;31-自然语言处理&#34;&gt;3.1 自然语言处理&lt;/h3&gt;&#xA;&lt;p&gt;Transformer 已成为 NLP 领域的标准架构，广泛应用于文本生成、机器翻译和情感分析等任务。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
