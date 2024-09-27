@@ -2,6 +2,10 @@
 
 欢迎来到 **NeuroPix** 仓库！这是 NeuroPix 博客的官方 GitHub Pages 网站，旨在探索人工智能的无尽可能性。
 
+<div style="text-align: center;">
+    <img src="about/logo.jpg" alt="alt text" style="height: 200px;" />
+</div>
+
 ## 目录
 
 - [介绍](#介绍)
