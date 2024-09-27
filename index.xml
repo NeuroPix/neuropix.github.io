@@ -16,6 +16,13 @@
       <description>这篇博文介绍了在 OpenMediaVault (OMV) 中启用 SSL 连接的步骤，以提高 Web 界面的安全性。用户需登录 OMV 管理界面，导航至 SSL/TLS 设置，申请或导入证书，启用 HTTPS 连接并保存更改。文中还详细说明了如何使用 Let&amp;rsquo;s Encrypt 申请免费证书或导入自签名证书，以确保 SSL 连接的正常工作。</description>
     </item>
     <item>
+      <title>推导无穷级数</title>
+      <link>https://neuropix.github.io/posts/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</link>
+      <pubDate>Fri, 27 Sep 2024 22:35:22 +0800</pubDate>
+      <guid>https://neuropix.github.io/posts/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</guid>
+      <description>本文将深入探讨无穷级数的推导及其应用，分析几种常见的无穷级数及其收敛性。</description>
+    </item>
+    <item>
       <title>推荐 MirrorZ 镜像站：开源软件的优质资源</title>
       <link>https://neuropix.github.io/posts/%E6%8E%A8%E8%8D%90-mirrorz-%E9%95%9C%E5%83%8F%E7%AB%99%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90/</link>
       <pubDate>Fri, 27 Sep 2024 22:35:22 +0800</pubDate>
