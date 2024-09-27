@@ -10,9 +10,9 @@
     <atom:link href="https://neuropix.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacBook 开启 Windows To Go！</title>
-      <link>https://neuropix.github.io/posts/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
+      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
+      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
       <description>本文介绍了如何使用非官方推荐的 Aigo 256GB 固态 U 盘为 MacBook 制作 Windows To Go。首先，通过萝卜头 WTG 辅助工具选择操作系统镜像和目标磁盘，点击“部署”开始写入，整个过程大约耗时 7 分钟。完成后，将 U 盘插入 MacBook，长按 Option 键即可选择 Windows 启动。文中还提到了磁盘速度测试结果，展示了该 U 盘的性能表现。</description>
     </item>
   </channel>

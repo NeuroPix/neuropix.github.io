@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://neuropix.github.io//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://neuropix.github.io//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://neuropix.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://neuropix.github.io//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://neuropix.github.io//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    OpenMediaVault 常用配置 | NeuroPix
+    
+</title>
+
+<link rel="canonical" href="https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6824bbee0d90d5af09fed9b70395ce7076b615e315037455d903314e96ef91b.css" media="all">
+
+
+
+
+
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header" style="position: relative;">
+
+    
+
+    <h1 class="header-title">NeuroPix</h1>
+
+    <div class="flex">
+        
+
+        
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/" >
+                        /home
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/posts" >
+                        /posts
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/categories" >
+                        /categories
+                    </a>
+                </p>
+
+                
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 100%; background: white; border: 1px solid #ccc; z-index: 1000;">
+                    
+                    <p class="small ">
+                        <a href="/categories/category1" >
+                            /Category 1
+                        </a>
+                    </p>
+                    
+                    <p class="small ">
+                        <a href="/categories/category2" >
+                            /Category 2
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/tags" >
+                        /tags
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/about" >
+                        /about
+                    </a>
+                </p>
+
+                
+            </div>
+        
+        
+    </div>
+
+    
+
+</div>
+
+<script>
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'block';
+        });
+        item.addEventListener('mouseleave', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'none';
+        });
+    });
+</script>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/%E6%8A%80%E6%9C%AF/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/">OpenMediaVault 常用配置</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">OpenMediaVault 常用配置</h1>
+    
+    <p class="single-summary">这篇博文介绍了在 OpenMediaVault (OMV) 中启用 SSL 连接的步骤，以提高 Web 界面的安全性。用户需登录 OMV 管理界面，导航至 SSL/TLS 设置，申请或导入证书，启用 HTTPS 连接并保存更改。文中还详细说明了如何使用 Let&#39;s Encrypt 申请免费证书或导入自签名证书，以确保 SSL 连接的正常工作。</p>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2024-09-27T22:35:22&#43;08:00">September 27, 2024</time>
+      
+
+      
+      &nbsp; · &nbsp;
+      1 min read
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+  <aside class="toc">
+    <p><strong>Table of contents</strong></p>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#启用-ssl-连接">启用 SSL 连接</a></li>
+        <li><a href="#申请证书">申请证书</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </aside>
+  
+
+  
+
+  <div class="single-content">
+    <h3 id="启用-ssl-连接">启用 SSL 连接</h3>
+<p>在 OpenMediaVault (OMV) 中，启用 SSL 连接可以提高访问 Web 界面的安全性，以下是启用 SSL 连接的步骤：</p>
+<ol>
+<li>
+<p><strong>进入 OMV 管理界面</strong>：</p>
+<ul>
+<li>使用浏览器访问 OMV 的 IP 地址，例如 <code>http://192.168.1.100</code>。</li>
+</ul>
+</li>
+<li>
+<p><strong>登录 OMV 管理页面</strong>：</p>
+<ul>
+<li>使用默认的用户名 <code>admin</code> 和你设置的密码登录。</li>
+</ul>
+</li>
+<li>
+<p><strong>导航到 SSL/TLS 设置</strong>：</p>
+<ul>
+<li>点击左侧的 “系统” &gt; “证书” &gt; “SSL 证书”。</li>
+</ul>
+</li>
+<li>
+<p><strong>申请或导入证书</strong>：</p>
+<ul>
+<li>你可以选择自己申请证书，或者使用 Let&rsquo;s Encrypt 申请免费证书。</li>
+</ul>
+</li>
+<li>
+<p><strong>启用 HTTPS 连接</strong>：</p>
+<ul>
+<li>进入 “服务” &gt; “Web 管理”。</li>
+<li>勾选 “启用 HTTPS” 选项。</li>
+<li>选择刚刚申请或导入的证书。</li>
+<li>保存并应用更改。</li>
+</ul>
+</li>
+<li>
+<p><strong>测试 SSL 连接</strong>：</p>
+<ul>
+<li>使用 <code>https://</code> 开头的 URL 重新访问 OMV 界面以确保 SSL 连接正常工作。</li>
+</ul>
+</li>
+</ol>
+<h3 id="申请证书">申请证书</h3>
+<ol>
+<li>
+<p><strong>使用 Let&rsquo;s Encrypt 申请免费证书</strong>：</p>
+<ul>
+<li>确保你的 OMV 系统安装了 Let&rsquo;s Encrypt 插件。</li>
+<li>在左侧导航中，选择 “服务” &gt; “Let&rsquo;s Encrypt”。</li>
+<li>填写你的域名、电子邮件，并按照提示完成申请。</li>
+</ul>
+</li>
+<li>
+<p><strong>导入自签名证书</strong>：</p>
+<ul>
+<li>如果不使用公共 CA 颁发的证书，可以生成自签名证书并导入。</li>
+<li>点击 “SSL 证书” &gt; “添加”，选择 “自签名证书”，填写必要信息并生成证书。</li>
+</ul>
+</li>
+</ol>
+
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="NeuroPix/neuropix.github.io"
+        data-repo-id="R_kgDOM3j-IA"
+        data-category=""
+        data-category-id="DIC_kwDOM3j-IM4Ci1RI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/%E7%A7%91%E7%A0%94/%E6%95%B0%E5%AD%A6/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/">
+                        推导无穷级数
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/%E6%8A%80%E6%9C%AF/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">
+                        GitHub 使用指南
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    
+    
+    <p>© 2024 NeuroPix. All rights reserved.</p>
+    
+
+
+
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ]
+    });
+  });
+</script>
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>

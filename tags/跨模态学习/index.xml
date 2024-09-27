@@ -10,9 +10,9 @@
     <atom:link href="https://neuropix.github.io/tags/%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CLIP：跨模态学习的突破</title>
-      <link>https://neuropix.github.io/posts/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</link>
+      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</guid>
+      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</guid>
       <description>CLIP（Contrastive Language–Image Pre-training）是由 OpenAI 提出的跨模态学习模型，旨在通过对比学习将图像与其文本描述结合起来，从而使计算机能够理解两者之间的关系。该模型通过数据收集、编码、对比学习等步骤进行训练，展现出多任务能力，能够处理图像分类、文本到图像检索、图像生成等多种视觉任务，且无需针对特定任务重新训练。CLIP 的灵活性和多任务能力为计算机视觉和自然语言处理领域带来了新的可能性，推动了相关研究的发展。</description>
     </item>
   </channel>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://neuropix.github.io//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://neuropix.github.io//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://neuropix.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://neuropix.github.io//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://neuropix.github.io//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    视觉 Transformer（ViT）的介绍与应用 | NeuroPix
+    
+</title>
+
+<link rel="canonical" href="https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6824bbee0d90d5af09fed9b70395ce7076b615e315037455d903314e96ef91b.css" media="all">
+
+
+
+
+
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header" style="position: relative;">
+
+    
+
+    <h1 class="header-title">NeuroPix</h1>
+
+    <div class="flex">
+        
+
+        
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/" >
+                        /home
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/posts" >
+                        /posts
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/categories" >
+                        /categories
+                    </a>
+                </p>
+
+                
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 100%; background: white; border: 1px solid #ccc; z-index: 1000;">
+                    
+                    <p class="small ">
+                        <a href="/categories/category1" >
+                            /Category 1
+                        </a>
+                    </p>
+                    
+                    <p class="small ">
+                        <a href="/categories/category2" >
+                            /Category 2
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/tags" >
+                        /tags
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/about" >
+                        /about
+                    </a>
+                </p>
+
+                
+            </div>
+        
+        
+    </div>
+
+    
+
+</div>
+
+<script>
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'block';
+        });
+        item.addEventListener('mouseleave', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'none';
+        });
+    });
+</script>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/%E7%A7%91%E7%A0%94/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/">视觉 Transformer（ViT）的介绍与应用</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">视觉 Transformer（ViT）的介绍与应用</h1>
+    
+    <p class="single-summary">视觉 Transformer（ViT）是 Google Research 提出的新型计算机视觉架构，它通过将图像分割成小的 patch 并利用 Transformer 的自注意力机制来处理图像，捕捉长距离依赖关系。ViT 的主要特点包括 patch 分割、位置编码和在大规模数据集上的预训练与微调，使其在图像分类、目标检测、图像分割和生成任务等多个计算机视觉领域表现出色。ViT 正在逐渐改变计算机视觉的研究和应用，为未来的创新和改进奠定基础。</p>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2024-09-26T00:00:00&#43;00:00">September 26, 2024</time>
+      
+
+      
+      &nbsp; · &nbsp;
+      1 min read
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+  <aside class="toc">
+    <p><strong>Table of contents</strong></p>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#什么是视觉-transformervit">什么是视觉 Transformer（ViT）？</a></li>
+    <li><a href="#vit-的主要特点">ViT 的主要特点</a></li>
+    <li><a href="#vit-的应用">ViT 的应用</a></li>
+    <li><a href="#结论">结论</a></li>
+  </ul>
+</nav>
+  </aside>
+  
+
+  
+
+  <div class="single-content">
+    <p>在过去的几年中，深度学习领域取得了巨大的进展，尤其是在计算机视觉任务中。传统上，卷积神经网络（CNN）是处理图像的主要工具。然而，近年来，视觉 Transformer（ViT）作为一种新的架构，逐渐受到研究人员的关注。</p>
+<h2 id="什么是视觉-transformervit">什么是视觉 Transformer（ViT）？</h2>
+<p>视觉 Transformer（ViT）是由 Google Research 提出的，它将 Transformer 架构应用于计算机视觉领域。ViT 通过将图像划分为若干个小的 patch，并将这些 patch 线性嵌入到 Transformer 中进行处理，从而实现图像分类等任务。该方法的核心思想是利用 Transformer 的自注意力机制来捕捉图像中的长距离依赖关系。</p>
+<h2 id="vit-的主要特点">ViT 的主要特点</h2>
+<ol>
+<li>
+<p><strong>Patch 分割</strong>：ViT 将输入图像划分为固定大小的 patch（例如 16x16），然后将每个 patch 展平并嵌入到一个高维空间中。这一过程将图像转换为一系列向量，为 Transformer 的输入做好准备。</p>
+</li>
+<li>
+<p><strong>位置编码</strong>：由于 Transformer 不具有 CNN 的空间结构感知能力，ViT 引入了位置编码，以便在处理图像时保留每个 patch 的位置信息。</p>
+</li>
+<li>
+<p><strong>自注意力机制</strong>：ViT 利用 Transformer 的自注意力机制，使得模型能够关注图像中的不同区域，从而捕捉到图像中更复杂的特征。</p>
+</li>
+<li>
+<p><strong>预训练与微调</strong>：ViT 通常在大规模数据集上进行预训练，然后在特定任务上进行微调。这种方法在多个计算机视觉基准上取得了显著的性能提升。</p>
+</li>
+</ol>
+<h2 id="vit-的应用">ViT 的应用</h2>
+<p>视觉 Transformer 在许多计算机视觉任务中显示出了优异的性能，以下是一些具体应用：</p>
+<ol>
+<li>
+<p><strong>图像分类</strong>：ViT 在大规模图像分类任务上表现出色，如 ImageNet 挑战。</p>
+</li>
+<li>
+<p><strong>目标检测</strong>：将 ViT 与目标检测框架结合，可以有效提高目标检测的准确性。</p>
+</li>
+<li>
+<p><strong>图像分割</strong>：ViT 也被应用于语义分割任务，通过自注意力机制实现更精细的分割效果。</p>
+</li>
+<li>
+<p><strong>生成模型</strong>：ViT 可以用于生成任务，如图像生成和图像超分辨率。</p>
+</li>
+</ol>
+<h2 id="结论">结论</h2>
+<p>视觉 Transformer（ViT）作为一种新的架构，正在逐渐改变计算机视觉的研究和应用。它的自注意力机制和高效的特征提取能力使得 ViT 成为解决许多视觉任务的有效工具。随着对 Transformer 架构的深入研究，我们可以期待未来会有更多的创新和改进出现。</p>
+<p>希望这篇文章能够帮助你理解视觉 Transformer 的基本概念及其应用。如果你有任何问题或想法，请在评论区留言与我交流！</p>
+
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="NeuroPix/neuropix.github.io"
+        data-repo-id="R_kgDOM3j-IA"
+        data-category=""
+        data-category-id="DIC_kwDOM3j-IM4Ci1RI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/%E6%8A%80%E6%9C%AF/%E7%BC%96%E7%A8%8B/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/">
+                        SQL 简明笔记
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/%E7%A7%91%E7%A0%94/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/">
+                        Transformer 架构的演变与应用
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    
+    
+    <p>© 2024 NeuroPix. All rights reserved.</p>
+    
+
+
+
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ]
+    });
+  });
+</script>
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>
