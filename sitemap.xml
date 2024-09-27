@@ -5,7 +5,7 @@
     <loc>https://neuropix.github.io/categories/</loc>
     <lastmod>2024-09-28T00:46:06+08:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2024-09-28T00:46:06+08:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/</loc>
@@ -14,10 +14,10 @@
     <loc>https://neuropix.github.io/posts/</loc>
     <lastmod>2024-09-28T00:46:06+08:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-09-28T00:46:06+08:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</loc>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2024-09-27T22:35:22+08:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/</loc>
@@ -26,10 +26,13 @@
     <loc>https://neuropix.github.io/tags/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2024-09-27T22:35:22+08:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E6%95%B0%E5%AD%A6/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</loc>
+    <loc>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2024-09-27T22:35:22+08:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E6%8E%A8%E8%8D%90-mirrorz-%E9%95%9C%E5%83%8F%E7%AB%99%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</loc>
+    <lastmod>2024-09-27T22:35:22+08:00</lastmod>
+  </url><url>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/%E6%8E%A8%E8%8D%90-mirrorz-%E9%95%9C%E5%83%8F%E7%AB%99%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2024-09-27T22:35:22+08:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/</loc>
@@ -38,10 +41,7 @@
     <loc>https://neuropix.github.io/tags/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</loc>
     <lastmod>2024-09-27T22:35:22+08:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/</loc>
-    <lastmod>2024-09-27T22:35:22+08:00</lastmod>
-  </url><url>
-    <loc>https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2024-09-27T22:35:22+08:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E9%95%9C%E5%83%8F%E7%AB%99/</loc>
@@ -59,13 +59,13 @@
     <loc>https://neuropix.github.io/tags/git/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</loc>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/makefile/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E7%BC%96%E7%A8%8B/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/nas/</loc>
@@ -80,7 +80,7 @@
     <loc>https://neuropix.github.io/tags/openmediavault/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E5%AE%89%E8%A3%85/</loc>
@@ -92,13 +92,16 @@
     <loc>https://neuropix.github.io/tags/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</loc>
+    <lastmod>2024-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/</loc>
     <lastmod>2024-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
@@ -110,7 +113,7 @@
     <loc>https://neuropix.github.io/tags/clip/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/nlp/</loc>
@@ -119,7 +122,7 @@
     <loc>https://neuropix.github.io/tags/transformer/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/vit/</loc>
@@ -128,10 +131,13 @@
     <loc>https://neuropix.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/</loc>
+    <lastmod>2024-09-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://neuropix.github.io/tags/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
@@ -143,13 +149,13 @@
     <loc>https://neuropix.github.io/tags/sql/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E7%BC%96%E7%A8%8B/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/gtd/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E4%BB%BB%E5%8A%A1/</loc>
@@ -158,7 +164,7 @@
     <loc>https://neuropix.github.io/tags/%E6%95%88%E7%8E%87/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E6%91%84%E5%BD%B1/</loc>
@@ -188,13 +194,13 @@
     <loc>https://neuropix.github.io/tags/sandisk/</loc>
     <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98/</loc>
+    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/</loc>
     <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E7%A1%AC%E4%BB%B6/</loc>
@@ -227,7 +233,7 @@
     <loc>https://neuropix.github.io/tags/macbook/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</loc>
     <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/windows/</loc>
@@ -314,7 +320,7 @@
     <loc>https://neuropix.github.io/tags/music/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</loc>
@@ -323,7 +329,7 @@
     <loc>https://neuropix.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
@@ -338,7 +344,7 @@
     <loc>https://neuropix.github.io/tags/%E9%9F%B3%E4%B9%90%E5%BA%93%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E7%BC%96%E7%A8%8B/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://neuropix.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
