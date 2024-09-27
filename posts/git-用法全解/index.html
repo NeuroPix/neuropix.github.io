@@ -156,7 +156,7 @@
 
       
       &nbsp; · &nbsp;
-      2 min read
+      1 min read
       
     </p>
 
@@ -167,112 +167,159 @@
   
 
   
+  <aside class="toc">
+    <p><strong>Table of contents</strong></p>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#git-安装与配置">Git 安装与配置</a>
+      <ul>
+        <li><a href="#安装">安装</a></li>
+        <li><a href="#配置">配置</a></li>
+      </ul>
+    </li>
+    <li><a href="#创建和管理仓库">创建和管理仓库</a></li>
+    <li><a href="#基本操作与分支管理">基本操作与分支管理</a></li>
+    <li><a href="#远程操作与子模块管理">远程操作与子模块管理</a></li>
+    <li><a href="#钩子管理与查看提交历史">钩子管理与查看提交历史</a></li>
+    <li><a href="#撤销更改与合并提交">撤销更改与合并提交</a></li>
+    <li><a href="#结论">结论</a></li>
+  </ul>
+</nav>
+  </aside>
+  
 
   
 
   <div class="single-content">
     <p>Git 是一个强大的版本控制工具，被广泛应用于软件开发中。无论您是初学者还是有经验的开发者，了解 Git 的基本用法都是非常重要的。在这篇文章中，我们将全面覆盖 Git 的主要命令和用法，以帮助您更高效地管理代码和协作开发。</p>
-<h2 id="git-安装">Git 安装</h2>
-<h3 id="macos">macOS</h3>
-<p>使用 Homebrew 安装 Git：</p>
+<h2 id="git-安装与配置">Git 安装与配置</h2>
+<h3 id="安装">安装</h3>
+<ul>
+<li>
+<p><strong>macOS</strong>：使用 Homebrew 安装 Git：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install git
-</span></span></code></pre></div><h3 id="ubuntu">Ubuntu</h3>
-<p>在终端中运行以下命令：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Ubuntu</strong>：在终端中运行以下命令：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
 </span></span><span style="display:flex;"><span>sudo apt install git
-</span></span></code></pre></div><h3 id="windows">Windows</h3>
-<p>可以通过 <a href="https://gitforwindows.org/">Git for Windows</a> 下载并安装。</p>
-<h2 id="配置-git">配置 Git</h2>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Windows</strong>：可以通过 <a href="https://gitforwindows.org/">Git for Windows</a> 下载并安装。</p>
+</li>
+</ul>
+<h3 id="配置">配置</h3>
 <p>在使用 Git 之前，您需要配置一些基本信息：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global user.name <span style="color:#666;font-style:italic">&#34;Your Name&#34;</span>
 </span></span><span style="display:flex;"><span>git config --global user.email <span style="color:#666;font-style:italic">&#34;you@example.com&#34;</span>
 </span></span></code></pre></div><p>查看当前配置：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --list
 </span></span></code></pre></div><h2 id="创建和管理仓库">创建和管理仓库</h2>
-<h3 id="创建新仓库">创建新仓库</h3>
-<p>要创建一个新的 Git 仓库，使用以下命令：</p>
+<ul>
+<li>
+<p><strong>创建新仓库</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init my-repo
 </span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">cd</span> my-repo
-</span></span></code></pre></div><h3 id="克隆现有仓库">克隆现有仓库</h3>
-<p>要从远程克隆一个已有的 Git 仓库：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>克隆现有仓库</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/username/repo.git
-</span></span></code></pre></div><h2 id="基本操作">基本操作</h2>
-<h3 id="检查文件状态">检查文件状态</h3>
-<p>查看当前工作目录的状态：</p>
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="基本操作与分支管理">基本操作与分支管理</h2>
+<ul>
+<li>
+<p><strong>检查文件状态</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
-</span></span></code></pre></div><h3 id="添加文件到暂存区">添加文件到暂存区</h3>
-<p>将更改的文件添加到暂存区：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>添加文件到暂存区</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add filename
-</span></span></code></pre></div><p>要添加所有更改的文件：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
-</span></span></code></pre></div><h3 id="提交更改">提交更改</h3>
-<p>提交暂存区的文件到本地仓库：</p>
+</span></span><span style="display:flex;"><span>git add .  <span style="color:#888;font-style:italic"># 添加所有更改的文件</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>提交更改</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#666;font-style:italic">&#34;Your commit message&#34;</span>
-</span></span></code></pre></div><h2 id="分支管理">分支管理</h2>
-<h3 id="创建新分支">创建新分支</h3>
-<p>要创建一个新分支：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>分支操作</strong>：</p>
+<ul>
+<li>创建新分支：
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch new-branch
-</span></span></code></pre></div><h3 id="切换分支">切换分支</h3>
-<p>切换到指定的分支：</p>
+</span></span></code></pre></div></li>
+<li>切换分支：
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout new-branch
-</span></span></code></pre></div><h3 id="合并分支">合并分支</h3>
-<p>将其他分支合并到当前分支：</p>
+</span></span></code></pre></div></li>
+<li>合并分支：
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git merge other-branch
-</span></span></code></pre></div><h3 id="删除分支">删除分支</h3>
-<p>删除一个分支：</p>
+</span></span></code></pre></div></li>
+<li>删除分支：
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch -d branch-name
-</span></span></code></pre></div><h2 id="远程操作">远程操作</h2>
-<h3 id="添加远程仓库">添加远程仓库</h3>
-<p>将远程仓库添加到本地仓库：</p>
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+<h2 id="远程操作与子模块管理">远程操作与子模块管理</h2>
+<ul>
+<li>
+<p><strong>添加远程仓库</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/username/repo.git
-</span></span></code></pre></div><h3 id="推送更改">推送更改</h3>
-<p>将本地的提交推送到远程仓库：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>推送更改</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push origin main
-</span></span></code></pre></div><h3 id="拉取更新">拉取更新</h3>
-<p>从远程仓库拉取更新：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>拉取更新</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull origin main
-</span></span></code></pre></div><h2 id="子模块管理">子模块管理</h2>
-<h3 id="添加子模块">添加子模块</h3>
-<p>要将一个子模块添加到当前仓库，可以使用以下命令：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>添加子模块</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/username/submodule-repo.git
-</span></span></code></pre></div><p>这将下载子模块并将其添加到 <code>.gitmodules</code> 文件中。</p>
-<h3 id="更新子模块">更新子模块</h3>
-<p>如果您想更新子模块，可以使用以下命令：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>更新子模块</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule update --remote
-</span></span></code></pre></div><h2 id="钩子管理">钩子管理</h2>
-<h3 id="添加钩子">添加钩子</h3>
-<p>Git 提供了多种钩子，可以在特定事件发生时执行脚本。例如，要在提交时运行一个脚本，可以在 <code>.git/hooks/</code> 目录中创建一个名为 <code>pre-commit</code> 的文件，并使其可执行：</p>
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="钩子管理与查看提交历史">钩子管理与查看提交历史</h2>
+<ul>
+<li>
+<p><strong>添加钩子</strong>：在 <code>.git/hooks/</code> 目录中创建一个名为 <code>pre-commit</code> 的文件并使其可执行：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#888;font-weight:bold">#!/bin/sh
 </span></span></span><span style="display:flex;"><span><span style="color:#888;font-weight:bold"></span><span style="font-weight:bold;font-style:italic">echo</span> <span style="color:#666;font-style:italic">&#34;Running pre-commit hook&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"># 在此处添加您的脚本</span>
-</span></span></code></pre></div><h3 id="查看现有钩子">查看现有钩子</h3>
-<p>Git 默认提供了多个示例钩子文件，您可以根据需要进行修改。</p>
-<h2 id="查看提交历史">查看提交历史</h2>
-<p>查看提交记录：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>查看提交历史</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git log
-</span></span></code></pre></div><p>查看简洁的提交历史：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git log --oneline
-</span></span></code></pre></div><h2 id="撤销更改">撤销更改</h2>
-<h3 id="撤销未暂存的更改">撤销未暂存的更改</h3>
-<p>撤销工作目录中的更改：</p>
+</span></span><span style="display:flex;"><span>git log --oneline
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="撤销更改与合并提交">撤销更改与合并提交</h2>
+<ul>
+<li>
+<p><strong>撤销未暂存的更改</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout -- filename
-</span></span></code></pre></div><h3 id="撤销已暂存的更改">撤销已暂存的更改</h3>
-<p>撤销暂存区中的更改：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>撤销已暂存的更改</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git reset HEAD filename
-</span></span></code></pre></div><h3 id="回滚到上一个提交">回滚到上一个提交</h3>
-<p>回滚到上一个提交：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>回滚到上一个提交</strong>：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git reset --hard HEAD~1
-</span></span></code></pre></div><h2 id="合并提交">合并提交</h2>
-<h3 id="合并多个提交">合并多个提交</h3>
-<p>要合并多个提交，您可以使用交互式 rebase：</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>合并多个提交</strong>：使用交互式 rebase：</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase -i HEAD~n
-</span></span></code></pre></div><p>其中 <code>n</code> 是要合并的提交数量。在打开的编辑器中，将要合并的提交前的 <code>pick</code> 改为 <code>squash</code> 或 <code>s</code>，然后保存并退出。</p>
-<h3 id="提交合并后的更改">提交合并后的更改</h3>
-<p>完成合并后，您可以输入合并提交的消息，然后提交更改。</p>
+</span></span></code></pre></div></li>
+</ul>
 <h2 id="结论">结论</h2>
 <p>Git 是一款功能强大的版本控制工具，掌握其基本用法可以大大提高您的开发效率。希望这篇文章能帮助您更好地理解 Git 的基本命令与操作。不断练习和应用 Git，您将会在项目管理和团队协作中游刃有余。</p>
 <p>如有任何问题或建议，欢迎在评论区讨论！</p>
-
+<pre tabindex="0"><code>
+这种方式将多个相关的主题合并为一个较少的章节，减少了 heading 的数量，同时保持了内容的完整性。
+</code></pre>
     
     <script src="https://giscus.app/client.js"
         data-repo="NeuroPix/neuropix.github.io"
