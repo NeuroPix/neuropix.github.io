@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>硬件 on NeuroPix</title>
+    <link>https://neuropix.github.io/tags/%E7%A1%AC%E4%BB%B6/</link>
+    <description>Recent content in 硬件 on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/tags/%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>扩展存储解决方案</title>
+      <link>https://neuropix.github.io/posts/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;起因&lt;/strong&gt;&lt;br&gt;&#xA;最近关注到我的移动硬盘存储空间告急，只剩 200 多个 G 了，所以准备买一块新的硬盘来进行数据的存储与备份。&lt;/p&gt;&#xA;&lt;h2 id=&#34;剩余存储空间&#34;&gt;剩余存储空间&lt;/h2&gt;&#xA;&lt;p&gt;我之前使用的一直是这块 SanDisk 的移动 SSD 硬盘，容量为 2TB。使用了近两年了，最大的变化就是硬盘的读写速度相比于购买的时候下降了大概 10% 的样子（不准确估计），目前这块 SSD 的写入速度已经只有 426 MB/s，读取速度为 512MB/s。&lt;/p&gt;&#xA;&lt;p&gt;而且这块 SSD 会经常带出门，也怕有一天会丢掉，所以数据的冗余备份对我而言就显得非常的重要了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;陪伴了我快两年的-sandisk&#34;&gt;陪伴了我快两年的 SanDisk&lt;/h2&gt;&#xA;&lt;p&gt;所以决定购入一块额外的硬盘进行数据存储与备份。&lt;/p&gt;&#xA;&lt;h2 id=&#34;硬盘的选购&#34;&gt;硬盘的选购&lt;/h2&gt;&#xA;&lt;h3 id=&#34;机械-or-固态&#34;&gt;机械 or 固态&lt;/h3&gt;&#xA;&lt;p&gt;我买这块新的硬盘主要是用作仓库盘，存储数据和备份数据，所以对于数据的读写速度要求不大。由于机械硬盘便宜的价格，所以最终决定选择机械硬盘。&lt;/p&gt;&#xA;&lt;h3 id=&#34;移动硬盘&#34;&gt;移动硬盘？&lt;/h3&gt;&#xA;&lt;p&gt;考虑到以后可能会将硬盘放入台式电脑，所以不选择购入移动机械硬盘。不仅如此，移动机械硬盘价格相对较贵，而且，感觉很容易坏（之前亲手葬送过一个西数的移动硬盘），所以选择购入普通的机械硬盘而非移动机械硬盘。&lt;/p&gt;&#xA;&lt;h3 id=&#34;尺寸&#34;&gt;尺寸&lt;/h3&gt;&#xA;&lt;p&gt;普通的机械硬盘又有很多的区分，按照尺寸来分，常见的主要有 2.5 寸和 3.5 寸。3.5 寸相比于 2.5 寸而言，有更大的存储空间、更便宜的价格；而 2.5 寸具有更好的便携性，而且更适合笔记本使用。由于我用来做仓库，所以便携性也不再考虑范围内，所以选择的 3.5 寸机械硬盘。&lt;/p&gt;&#xA;&lt;h3 id=&#34;型号选择&#34;&gt;型号选择&lt;/h3&gt;&#xA;&lt;p&gt;在型号的选择上，做了很久的选择，也纠结了很久。根据上述的需求，选择的是 3.5 寸机械硬盘。在网络上搜索，有很多各种各样的型号。&lt;/p&gt;&#xA;&lt;p&gt;最终我选择的是这款西部数据的 WD40PURX。&lt;/p&gt;&#xA;&lt;p&gt;这款硬盘是西部数据与海康威视联合出品的一块硬盘，是一块紫盘，有 4TB 的存储空间，而且是垂直盘，并非叠瓦盘。&lt;/p&gt;&#xA;&lt;p&gt;紫盘是西部数据打造的监控盘，专为 24×7 全天候高清安全系统而打造，具有非常安静的特点，且稳定性很好。紫盘磁头与盘片和红蓝通常不一样（也有一样的），固件不同，稳定性比之红蓝稍好，连续读写性能差不多，但是随机读写性能最弱，声音非常小，很适合当仓库盘。&lt;/p&gt;&#xA;&lt;p&gt;不仅如此这还是一块垂直盘。传统的垂直盘的磁道是水平排列的，而叠瓦盘将磁道像瓦片一样叠起来，利用这种方式增加磁道数量，提高数据密度，但同时也会牺牲性能和寿命。游戏盘、剪辑视频素材盘、组 NAS 等需要频繁随机读写的场景就不推荐使用叠瓦盘，否则体验会很差。叠瓦盘为了避免改写数据时影响到相邻磁道，增加读写性能，所以需要大的缓存，因此缓存大小也能简单地判断垂直盘和叠瓦盘。&lt;/p&gt;&#xA;&lt;p&gt;最关键的是，这块盘京东售价居然只要 400 出头，在拼多多甚至到了 370 的价位。每 GB 价格下到了 0.1 元。同样的西部数据的蓝盘价格都超过 500 多。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

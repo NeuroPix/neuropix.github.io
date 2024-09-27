@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on NeuroPix</title>
+    <link>https://neuropix.github.io/tags/windows/</link>
+    <description>Recent content in Windows on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacBook 开启 Windows To Go！</title>
+      <link>https://neuropix.github.io/posts/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
+      <description>&lt;p&gt;本文主要介绍使用非官方推荐 U 盘为 MacBook 电脑制作 Windows To Go。&lt;/p&gt;&#xA;&lt;h2 id=&#34;设备&#34;&gt;设备&lt;/h2&gt;&#xA;&lt;p&gt;Aigo 固态 U 盘，256 G，价格 199 人民币。&lt;/p&gt;&#xA;&lt;h2 id=&#34;测试速度如下&#34;&gt;测试速度如下&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;磁盘速度测试&lt;/strong&gt;&lt;br&gt;&#xA;（在此处插入磁盘速度测试的结果图表或截图）&lt;/p&gt;&#xA;&lt;h2 id=&#34;软件准备&#34;&gt;软件准备&lt;/h2&gt;&#xA;&lt;p&gt;使用萝卜头 WTG 辅助工具。&lt;/p&gt;&#xA;&lt;p&gt;启动软件，选择操作系统镜像和安装的磁盘驱动器。&lt;/p&gt;&#xA;&lt;p&gt;点击「部署」，就会开始写入磁盘。整个过程耗时 7 分钟左右。&lt;/p&gt;&#xA;&lt;h2 id=&#34;启动&#34;&gt;启动&lt;/h2&gt;&#xA;&lt;p&gt;将 U 盘插入 MacBook，长按 Option 选择 Windows 进入。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

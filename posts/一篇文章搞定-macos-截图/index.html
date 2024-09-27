@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://neuropix.github.io//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://neuropix.github.io//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://neuropix.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://neuropix.github.io//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://neuropix.github.io//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    一篇文章搞定 macOS 截图 | NeuroPix
+    
+</title>
+
+<link rel="canonical" href="https://neuropix.github.io/posts/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6824bbee0d90d5af09fed9b70395ce7076b615e315037455d903314e96ef91b.css" media="all">
+
+
+
+
+
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">NeuroPix</h1>
+
+    <div class="flex">
+        
+
+        
+        
+      
+        <p class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/categories" >
+                /categories
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/tags" >
+                /tags
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/">一篇文章搞定 macOS 截图</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">一篇文章搞定 macOS 截图</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2022-01-31T00:00:00&#43;00:00">January 31, 2022</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>截图是我们在日常办公中十分常用的操作之一，很多人在刚刚接触 macOS 的时候，对新系统的截图功能非常陌生，今天就让我们用一篇文章，解决在 macOS 上的截图需求。</p>
+<h2 id="普通系统截图">普通系统截图</h2>
+<p>系统截图是最方便也最常用的截图方法，不需要安装任何插件，操作也非常简单，可以使用以下快捷键进行截图。</p>
+<h3 id="截取整个屏幕">截取整个屏幕</h3>
+<p>使用 <strong>Command + Shift + 3</strong> 快捷键会截取屏幕的所有内容，生成一张与屏幕像素尺寸相同的图片。屏幕像素尺寸可以在“关于本机”&gt;“显示器”中看到。</p>
+<h3 id="截取部分屏幕">截取部分屏幕</h3>
+<p>使用 <strong>Command + Shift + 4</strong> 并选取需要截图的区域后，按住鼠标的同时按下空格，这时你能通过移动鼠标来移动整个已选择区域；按住鼠标的同时按下 Shift 键，这时你能通过横向或竖向移动鼠标来改变已选择区域的长或高；按住鼠标的同时按下 Option 键，这时你通过移动鼠标可以对称地改变截图区域。</p>
+<p>按下 <strong>Command + Shift + 4 + 空格</strong> 再点击某个窗口可以截取选中的窗口，点击桌面可以截取桌面壁纸。</p>
+<p>截取窗口时，macOS 默认会给截图加上一层软阴影，个人认为这层软阴影还是挺好看的，如果你想去除，只需要在截图的时候按住 Option 即可。</p>
+<p>也可以在终端执行一条命令永久去除软阴影：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>defaults write com.apple.screencapture disable-shadow -bool <span style="font-weight:bold;font-style:italic">true</span> &amp;&amp; killall SystemUIServer
+</span></span></code></pre></div><p>如果要把软阴影找回来，同样也只需要一条命令：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>defaults write com.apple.screencapture disable-shadow -bool <span style="font-weight:bold;font-style:italic">false</span> &amp;&amp; killall SystemUIServer
+</span></span></code></pre></div><p>如果你使用的是带触控栏的 MacBook Pro，则在按下 <strong>Command + Shift + 4</strong> 后可以在触控栏选择“截取整个屏幕”、“截取所选窗口”或“截取部分屏幕”，也可以对截图的储存位置进行修改。</p>
+<ul>
+<li><strong>Command + Shift + 5</strong> 打开截图工具栏</li>
+<li><strong>Command + Shift + 6</strong> 截取触控栏</li>
+</ul>
+<p>如果你在上述任意一套组合键中加上 Control，则截图会自动进入系统的剪切板记录，桌面不会再保存截图，此时你可以直接使用 <strong>Command + V</strong> 进行粘贴。</p>
+<p>当你按下截图组合键后想停止截图操作，只要按 <strong>Esc</strong> 就能停止截图，此时不会保存任何图片文件。</p>
+<p>当然，以上的快捷键都可以根据个人喜好进行修改。若要修改截图快捷键只需要进入“系统偏好设置”&gt;“键盘”&gt;“快捷键”&gt;“截图”进行修改即可。</p>
+<h2 id="系统自带的截屏app">系统自带的“截屏”app</h2>
+<p>在 macOS 中有自在的截图 app“截屏”，它就藏在程序列表的“其他”文件夹中，打开“截屏”app 就相当于启动截图工具栏，与 <strong>Command + Shift + 5</strong> 效果相同。</p>
+<h3 id="截图缩略图">截图缩略图</h3>
+<p>在使用系统截图截图完成后，便会在屏幕的右下角生成一个截图缩略图，我们可以点击它，对截图进行快速编辑。</p>
+<p>如果不想处理，可以将其向右轻扫。我们还可以拖动缩略图储存到不同的位置。不仅如此，还可以按住 Control 并点击或者右击缩略图，弹出菜单选项，选择不同的处理方式。</p>
+<p>可以说，macOS 自带的截图功能已经非常强大，足以满足我们日常生活中的绝大多数需求，但接下来要说的截图工具，会让你的 Mac 截图更强大。</p>
+<h2 id="长截图">长截图</h2>
+<p>说到 macOS 的长截图，在这里就不得不提 <strong>iShot</strong> 了。iShot 是一款非常优秀的截图软件，我们可以在 Mac App Store 上免费下载。安装完成后，屏幕右上角会出现一个小按钮，我们只需要点击它就可以使用各种截图功能。</p>
+<p>想要使用 iShot 的长截图功能，只需要点击截图（快捷键 <strong>Option + A</strong>），然后框选出要截图的窗口，点击下方的“长截图”按钮（或者直接使用快捷键 <strong>S</strong>）即可开始长截图。</p>
+<p>进行长截图时，缓慢的滑动页面，完成后点击下方的确认，一张精美的长截图便制作完成了。</p>
+<h3 id="截取动图">截取动图</h3>
+<p>除了静态的截图，iShot 也是一款优秀的动图截取软件，可以轻松利用 iShot 制作精美动图，为你的文章增添色彩。</p>
+<p>截取 gif 动图，只需要点击右上角的 iShot 小图标，点击“开始录屏”（快捷键 <strong>Option + W</strong>）并框选住要录制的区域。在下方的工具栏中可以选择画质，记得在选项中选择格式为“gif”，这样才会录制动图而不是视频哦。</p>
+<p>当然这里 gif 不要选择过高的清晰度，因为这样会导致 gif 文件的体积非常大，以至于不适合在网络上传输。</p>
+<h2 id="小结">小结</h2>
+<p>关于 macOS 的截图方法就介绍到这里，不得不说 macOS 的截图功能相对于隔壁的 Windows 真的是强大了不少，掌握了这些截图的方法，便可以很大程度上地提升工作和学习的效率，省去很多不必要的麻烦了。</p>
+
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="NeuroPix/neuropix.github.io"
+        data-repo-id="R_kgDOM3j-IA"
+        data-category=""
+        data-category-id="DIC_kwDOM3j-IM4Ci1RI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+                        将 Hexo 博客部署到云服务器
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/">
+                        不一样的黄绮珊《小霞 2.0》
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>
