@@ -193,24 +193,13 @@
 <p>在Linux环境中，当我们输入<code>make</code>命令时，它会在当前目录查找一个名为Makefile的文件，并根据该文件定义的规则自动执行编译命令等。</p>
 <p>Makefile可以理解为“生成文件”的说明书。</p>
 <p>举个例子，假设在当前目录下有3个文本文件：<code>a.txt</code>、<code>b.txt</code>和<code>c.txt</code>。我们希望将<code>a.txt</code>与<code>b.txt</code>合并生成中间文件<code>m.txt</code>，再用<code>m.txt</code>与<code>c.txt</code>合并生成最终的目标文件<code>x.txt</code>，整个逻辑如下：</p>
-<pre tabindex="0"><code>┌─────┐ ┌─────┐ ┌─────┐
-│a.txt│ │b.txt│ │c.txt│
-└─────┘ └─────┘ └─────┘
-   │       │       │
-   └───┬───┘       │
-       │           │
-       ▼           │
-    ┌─────┐        │
-    │m.txt│        │
-    └─────┘        │
-       │           │
-       └─────┬─────┘
-             │
-             ▼
-          ┌─────┐
-          │x.txt│
-          └─────┘
-</code></pre><p>根据上述逻辑，我们编写Makefile。</p>
+<p>以下是将“文件和依赖”部分转化为有序列表的内容：</p>
+<ol>
+<li><strong>a.txt</strong>、<strong>b.txt</strong> 和 <strong>c.txt</strong> 是三个独立的文件，作为输入或源文件。</li>
+<li><strong>m.txt</strong> 是一个中间文件，依赖于 <strong>a.txt</strong> 和 <strong>b.txt</strong>。这意味着 <strong>m.txt</strong> 的内容可能由这两个文件的数据生成。</li>
+<li><strong>x.txt</strong> 是最终文件，依赖于 <strong>m.txt</strong>。这表明 <strong>x.txt</strong> 的内容依赖于中间文件 <strong>m.txt</strong> 的生成。</li>
+</ol>
+<p>根据上述逻辑，我们编写Makefile。</p>
 <h3 id="规则">规则</h3>
 <p>Makefile由若干条规则（Rule）构成，每条规则指定一个目标文件（Target）、若干依赖文件（prerequisites）以及生成目标文件的命令。</p>
 <p>例如，要生成<code>m.txt</code>，其依赖文件为<code>a.txt</code>与<code>b.txt</code>，规则如下：</p>
