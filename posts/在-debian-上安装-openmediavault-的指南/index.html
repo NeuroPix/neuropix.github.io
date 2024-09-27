@@ -156,7 +156,7 @@
 
       
       &nbsp; · &nbsp;
-      1 min read
+      2 min read
       
     </p>
 
@@ -209,7 +209,18 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public sandworm main
 </span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">EOF</span>
 </span></span></code></pre></div><p>如果您位于中国大陆，可以考虑使用 TUNA 提供的镜像服务以加快下载速度。</p>
-</li>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat <span style="color:#666;font-style:italic">&lt;&lt;&#39;EOF&#39; &gt; /etc/apt/sources.list.d/openmediavault.list
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/OpenMediaVault/public sandworm main
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/OpenMediaVault/packages sandworm main
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">## Uncomment the following line to add software from the proposed repository.
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/OpenMediaVault/public sandworm-proposed main
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/OpenMediaVault/packages sandworm-proposed main
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">## This software is not part of OpenMediaVault, but is offered by third-party
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">## developers as a service to OpenMediaVault users.
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/OpenMediaVault/public sandworm partner
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/OpenMediaVault/packages sandworm partner
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">EOF</span>
+</span></span></code></pre></div></li>
 <li>
 <p><strong>安装 OpenMediaVault 软件包</strong></p>
 <p>继续执行以下命令安装 OpenMediaVault：</p>
