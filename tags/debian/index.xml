@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on NeuroPix</title>
+    <link>https://neuropix.github.io/tags/debian/</link>
+    <description>Recent content in Debian on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Debian 上安装 OpenMediaVault 的指南</title>
+      <link>https://neuropix.github.io/posts/raspberry-pi-nas-setup/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/raspberry-pi-nas-setup/</guid>
+      <description>&lt;h1 id=&#34;在-debian-上安装-openmediavault-的指南&#34;&gt;在 Debian 上安装 OpenMediaVault 的指南&lt;/h1&gt;&#xA;&lt;p&gt;OpenMediaVault 是一个基于 Debian 的网络附加存储（NAS）解决方案，具有出色的功能和易于使用的 Web 界面。在这篇文章中，我们将逐步介绍如何在 Debian 系统上安装 OpenMediaVault。&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装前的准备&#34;&gt;安装前的准备&lt;/h2&gt;&#xA;&lt;p&gt;在开始安装之前，请确保您的系统满足以下要求：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;没有图形桌面环境&lt;/strong&gt;：OpenMediaVault 不支持在有图形桌面环境的情况下安装。请确保您使用的是最小的服务器安装，包含 SSH 服务器和标准系统实用程序。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Debian 版本&lt;/strong&gt;：确认您使用的是 OpenMediaVault 所基于的正确 Debian 版本。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;安装步骤&#34;&gt;安装步骤&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;使用 Debian netinst 镜像安装系统&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;首先，下载并安装 Debian netinst 镜像。请参阅 Debian 的最小安装指南，按照提示完成安装。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;安装 OpenMediaVault 密钥环&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;登录到系统后，以 root 用户身份执行以下命令：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install --yes gnupg&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget --quiet --output-document=- https://packages.openmediavault.org/public/archive.key | gpg --dearmor --yes --output &lt;span style=&#34;color:#666;font-style:italic&#34;&gt;&amp;#34;/usr/share/keyrings/openmediavault-archive-keyring.gpg&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;添加包存储库&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;接下来，添加 OpenMediaVault 的包存储库：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat &lt;span style=&#34;color:#666;font-style:italic&#34;&gt;&amp;lt;&amp;lt;EOF &amp;gt;&amp;gt; /etc/apt/sources.list.d/openmediavault.list&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#666;font-style:italic&#34;&gt;deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public sandworm main&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#666;font-style:italic&#34;&gt;EOF&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果您位于中国大陆，可以考虑使用 TUNA 提供的镜像服务以加快下载速度。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

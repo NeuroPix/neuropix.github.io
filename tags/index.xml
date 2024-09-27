@@ -6,8 +6,57 @@
     <description>Recent content in Tags on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2024 21:44:45 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2024 10:00:00 +0800</lastBuildDate>
     <atom:link href="https://neuropix.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Makefile</title>
+      <link>https://neuropix.github.io/tags/makefile/</link>
+      <pubDate>Fri, 27 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/tags/makefile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>开发工具</title>
+      <link>https://neuropix.github.io/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Fri, 27 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自动化</title>
+      <link>https://neuropix.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <pubDate>Fri, 27 Sep 2024 10:00:00 +0800</pubDate>
+      <guid>https://neuropix.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debian</title>
+      <link>https://neuropix.github.io/tags/debian/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/tags/debian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NAS</title>
+      <link>https://neuropix.github.io/tags/nas/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/tags/nas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenMediaVault</title>
+      <link>https://neuropix.github.io/tags/openmediavault/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/tags/openmediavault/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>安装</title>
+      <link>https://neuropix.github.io/tags/%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/tags/%E5%AE%89%E8%A3%85/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CLIP</title>
       <link>https://neuropix.github.io/tags/clip/</link>

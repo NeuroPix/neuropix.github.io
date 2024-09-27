@@ -18,7 +18,7 @@
 
 <title>
     
-    树莓派网络附加存储设置 | NeuroPix
+    在 Debian 上安装 OpenMediaVault 的指南 | NeuroPix
     
 </title>
 
@@ -115,7 +115,7 @@
     <a href="/posts/">Posts</a>
     <span class="breadcrumbs-separator"> > </span>
     
-    <a class="breadcrumbs-current" href="/posts/raspberry-pi-nas-setup/">树莓派网络附加存储设置</a>
+    <a class="breadcrumbs-current" href="/posts/raspberry-pi-nas-setup/">在 Debian 上安装 OpenMediaVault 的指南</a>
 </div>
 
 
@@ -126,7 +126,7 @@
 
     
 
-    <h1 class="single-title">树莓派网络附加存储设置</h1>
+    <h1 class="single-title">在 Debian 上安装 OpenMediaVault 的指南</h1>
     
 
     
@@ -135,7 +135,7 @@
       
       
       
-      <time datetime="2024-09-25T21:47:47&#43;08:00">September 25, 2024</time>
+      <time datetime="2024-09-27T00:00:00&#43;00:00">September 27, 2024</time>
       
 
       
@@ -152,50 +152,75 @@
   
 
   <div class="single-content">
-    <p>在这篇文章中，我将分享如何在树莓派上安装 OpenMediaVault（OMV），并将其配置为网络附加存储（NAS）设备。</p>
-<h2 id="为什么选择-omv">为什么选择 OMV？</h2>
-<p>OpenMediaVault 是一款基于 Debian 的 NAS 解决方案，提供用户友好的界面和丰富的功能，适合各种用户需求。使用树莓派作为 NAS，不仅可以节省空间，还能实现高效的文件共享。</p>
-<h2 id="安装步骤">安装步骤</h2>
-<h3 id="硬件准备">硬件准备</h3>
+    <h1 id="在-debian-上安装-openmediavault-的指南">在 Debian 上安装 OpenMediaVault 的指南</h1>
+<p>OpenMediaVault 是一个基于 Debian 的网络附加存储（NAS）解决方案，具有出色的功能和易于使用的 Web 界面。在这篇文章中，我们将逐步介绍如何在 Debian 系统上安装 OpenMediaVault。</p>
+<h2 id="安装前的准备">安装前的准备</h2>
+<p>在开始安装之前，请确保您的系统满足以下要求：</p>
 <ul>
-<li>树莓派 3 或 4</li>
-<li>microSD 卡（建议 16GB 或更大）</li>
-<li>外接 USB 硬盘（用于存储数据）</li>
-<li>电源适配器</li>
+<li><strong>没有图形桌面环境</strong>：OpenMediaVault 不支持在有图形桌面环境的情况下安装。请确保您使用的是最小的服务器安装，包含 SSH 服务器和标准系统实用程序。</li>
+<li><strong>Debian 版本</strong>：确认您使用的是 OpenMediaVault 所基于的正确 Debian 版本。</li>
 </ul>
-<h3 id="1-下载-omv-映像">1. 下载 OMV 映像</h3>
-<p>访问 <a href="https://www.openmediavault.org/">OpenMediaVault 的官方网站</a> 下载适用于树莓派的映像文件。</p>
-<h3 id="2-刻录映像到-microsd-卡">2. 刻录映像到 microSD 卡</h3>
-<p>使用工具如 Balena Etcher 将下载的 OMV 映像写入 microSD 卡。</p>
-<h3 id="3-插入卡片并启动">3. 插入卡片并启动</h3>
-<p>将 microSD 卡插入树莓派，连接外接 USB 硬盘，接通电源启动。</p>
-<h3 id="4-配置-omv">4. 配置 OMV</h3>
+<h2 id="安装步骤">安装步骤</h2>
 <ol>
 <li>
-<p><strong>访问 Web 界面</strong>：
-在浏览器中输入 <code>http://&lt;树莓派的IP地址&gt;</code>，进入 OMV 的管理界面。</p>
+<p><strong>使用 Debian netinst 镜像安装系统</strong></p>
+<p>首先，下载并安装 Debian netinst 镜像。请参阅 Debian 的最小安装指南，按照提示完成安装。</p>
 </li>
 <li>
-<p><strong>初始设置</strong>：
-默认用户名是 <code>admin</code>，密码是 <code>openmediavault</code>。第一次登录后，建议更改密码。</p>
+<p><strong>安装 OpenMediaVault 密钥环</strong></p>
+<p>登录到系统后，以 root 用户身份执行以下命令：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt-get install --yes gnupg
+</span></span><span style="display:flex;"><span>wget --quiet --output-document=- https://packages.openmediavault.org/public/archive.key | gpg --dearmor --yes --output <span style="color:#666;font-style:italic">&#34;/usr/share/keyrings/openmediavault-archive-keyring.gpg&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>添加包存储库</strong></p>
+<p>接下来，添加 OpenMediaVault 的包存储库：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat <span style="color:#666;font-style:italic">&lt;&lt;EOF &gt;&gt; /etc/apt/sources.list.d/openmediavault.list
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public sandworm main
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">EOF</span>
+</span></span></code></pre></div><p>如果您位于中国大陆，可以考虑使用 TUNA 提供的镜像服务以加快下载速度。</p>
 </li>
 <li>
-<p><strong>添加存储</strong>：
-在“存储”部分，选择你的 USB 硬盘，格式化并挂载。</p>
+<p><strong>安装 OpenMediaVault 软件包</strong></p>
+<p>继续执行以下命令安装 OpenMediaVault：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">export</span> <span style="color:#666;font-weight:bold;font-style:italic">LANG</span>=C.UTF-8
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">export</span> <span style="color:#666;font-weight:bold;font-style:italic">DEBIAN_FRONTEND</span>=noninteractive
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">export</span> <span style="color:#666;font-weight:bold;font-style:italic">APT_LISTCHANGES_FRONTEND</span>=none
+</span></span><span style="display:flex;"><span>apt-get update
+</span></span><span style="display:flex;"><span>apt-get --yes --auto-remove --show-upgraded <span style="color:#666;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --allow-downgrades --allow-change-held-packages <span style="color:#666;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --no-install-recommends <span style="color:#666;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --option DPkg::Options::=<span style="color:#666;font-style:italic">&#34;--force-confdef&#34;</span> <span style="color:#666;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --option DPkg::Options::=<span style="color:#666;font-style:italic">&#34;--force-confold&#34;</span> <span style="color:#666;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    install openmediavault
+</span></span></code></pre></div></li>
+<li>
+<p><strong>填充 OpenMediaVault 数据库</strong></p>
+<p>使用现有的系统设置（例如网络配置）填充 OpenMediaVault 数据库：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>omv-confdbadm populate
+</span></span></code></pre></div><blockquote>
+<p><strong>注意</strong>：仅解析 <code>/etc/network/interfaces</code> 来获取当前的网络配置。如果网络通过其他方式配置，请使用 <code>omv-firstaid</code> 进行初始网络配置。</p>
+</blockquote>
 </li>
 <li>
-<p><strong>设置共享文件夹</strong>：
-创建一个共享文件夹，设置权限。</p>
-</li>
-<li>
-<p><strong>配置 Samba</strong>：
-启用 Samba 服务，以便在网络上访问共享文件夹。</p>
+<p><strong>重新部署网络配置</strong></p>
+<p>通过 OpenMediaVault 使用的服务重新部署网络配置：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>omv-salt deploy run systemd-networkd
+</span></span></code></pre></div><blockquote>
+<p><strong>注意</strong>：在重新部署网络配置期间，IP 地址可能会发生变化，因此当您通过 SSH 连接时可能会丢失连接。完成安装后，请尽快禁用 root 的 SSH 访问以提高安全性。</p>
+</blockquote>
 </li>
 </ol>
-<h2 id="小结">小结</h2>
-<p>通过以上步骤，你就可以在树莓派上成功部署 OMV，享受 NAS 带来的便利。无论是用于文件存储、备份，还是媒体共享，树莓派 NAS 都是一个极具性价比的解决方案。</p>
-<p>如果你在安装过程中遇到问题，或者有任何问题，请随时在评论区留言，我会尽力帮助你！</p>
-<p>感谢你的阅读，期待在下一篇文章中与你再见！</p>
+<h2 id="登录-openmediavault">登录 OpenMediaVault</h2>
+<p>安装完成后，您可以通过 Web 浏览器访问 OpenMediaVault 的界面。默认情况下，您可以使用以下凭据登录：</p>
+<ul>
+<li><strong>用户名</strong>: <code>admin</code></li>
+<li><strong>密码</strong>: <code>openmediavault</code></li>
+</ul>
+<p>如果您在安装过程中更改了默认密码，请使用您设置的新密码。</p>
+<h2 id="总结">总结</h2>
+<p>在这篇文章中，我们介绍了如何在 Debian 上安装 OpenMediaVault 的步骤。通过简单的命令，您可以快速设置一个功能强大的 NAS 解决方案。完成安装后，请通过 Web 界面重新配置您的服务，并享受 OpenMediaVault 带来的便利。</p>
+<p>如需进一步的信息和支持，请参考<a href="https://docs.openmediavault.org/en/stable/installation/on_debian.html">官方文档</a>。</p>
 
     
   </div>
@@ -215,14 +240,23 @@
 
         <div class="single-pagination-prev">
             
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/clip/">
+                        CLIP：跨模态学习的突破
+                    </a>
+                </div>
+            </div>
+            
         </div>
 
         <div class="single-pagination-next">
             
             <div class="single-pagination-container-next">
                 <div class="single-pagination-text">
-                    <a href="/posts/transformer-evolution-and-application/">
-                        Transformer 架构的演变与应用
+                    <a href="/posts/makefile-usage-guide/">
+                        Makefile 使用指南
                     </a>
                 </div>
                 <div class="single-pagination-text">→</div>
