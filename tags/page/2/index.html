@@ -60,7 +60,7 @@
       <header>
         
 
-<div class="header">
+<div class="header" style="position: relative;">
 
     
 
@@ -71,40 +71,71 @@
 
         
         
-      
-        <p class="small ">
-            <a href="/" >
-                /home
-            </a>
-        </p>
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/" >
+                        /home
+                    </a>
+                </p>
+
+                
+            </div>
         
-      
-        <p class="small ">
-            <a href="/posts" >
-                /posts
-            </a>
-        </p>
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/posts" >
+                        /posts
+                    </a>
+                </p>
+
+                
+            </div>
         
-      
-        <p class="small ">
-            <a href="/categories" >
-                /categories
-            </a>
-        </p>
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/categories" >
+                        /categories
+                    </a>
+                </p>
+
+                
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 100%; background: white; border: 1px solid #ccc; z-index: 1000;">
+                    
+                    <p class="small ">
+                        <a href="/categories/category1" >
+                            /Category 1
+                        </a>
+                    </p>
+                    
+                    <p class="small ">
+                        <a href="/categories/category2" >
+                            /Category 2
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
         
-      
-        <p class="small  bold ">
-            <a href="/tags" >
-                /tags
-            </a>
-        </p>
+            <div class="menu-item" style="position: relative;">
+                <p class="small  bold ">
+                    <a href="/tags" >
+                        /tags
+                    </a>
+                </p>
+
+                
+            </div>
         
-      
-        <p class="small ">
-            <a href="/about" >
-                /about
-            </a>
-        </p>
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/about" >
+                        /about
+                    </a>
+                </p>
+
+                
+            </div>
         
         
     </div>
@@ -112,6 +143,19 @@
     
 
 </div>
+
+<script>
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'block';
+        });
+        item.addEventListener('mouseleave', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'none';
+        });
+    });
+</script>
 
       </header>
 
