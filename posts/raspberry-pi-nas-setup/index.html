@@ -168,35 +168,35 @@
 <li>
 <p><strong>安装 OpenMediaVault 密钥环</strong></p>
 <p>登录到系统后，以 root 用户身份执行以下命令：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt-get install --yes gnupg
-</span></span><span style="display:flex;"><span>wget --quiet --output-document=- https://packages.openmediavault.org/public/archive.key | gpg --dearmor --yes --output <span style="color:#666;font-style:italic">&#34;/usr/share/keyrings/openmediavault-archive-keyring.gpg&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>apt-get install --yes gnupg
+</span></span><span style="display:flex;"><span>wget --quiet --output-document=- https://packages.openmediavault.org/public/archive.key | gpg --dearmor --yes --output <span style="color:#0ff;font-weight:bold">&#34;/usr/share/keyrings/openmediavault-archive-keyring.gpg&#34;</span>
 </span></span></code></pre></div></li>
 <li>
 <p><strong>添加包存储库</strong></p>
 <p>接下来，添加 OpenMediaVault 的包存储库：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat <span style="color:#666;font-style:italic">&lt;&lt;EOF &gt;&gt; /etc/apt/sources.list.d/openmediavault.list
-</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public sandworm main
-</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">EOF</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat <span style="color:#0ff;font-weight:bold">&lt;&lt;EOF &gt;&gt; /etc/apt/sources.list.d/openmediavault.list
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public sandworm main
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">EOF</span>
 </span></span></code></pre></div><p>如果您位于中国大陆，可以考虑使用 TUNA 提供的镜像服务以加快下载速度。</p>
 </li>
 <li>
 <p><strong>安装 OpenMediaVault 软件包</strong></p>
 <p>继续执行以下命令安装 OpenMediaVault：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">export</span> <span style="color:#666;font-weight:bold;font-style:italic">LANG</span>=C.UTF-8
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">export</span> <span style="color:#666;font-weight:bold;font-style:italic">DEBIAN_FRONTEND</span>=noninteractive
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic">export</span> <span style="color:#666;font-weight:bold;font-style:italic">APT_LISTCHANGES_FRONTEND</span>=none
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">export</span> LANG=C.UTF-8
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">export</span> DEBIAN_FRONTEND=noninteractive
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">export</span> APT_LISTCHANGES_FRONTEND=none
 </span></span><span style="display:flex;"><span>apt-get update
-</span></span><span style="display:flex;"><span>apt-get --yes --auto-remove --show-upgraded <span style="color:#666;font-style:italic">\
-</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --allow-downgrades --allow-change-held-packages <span style="color:#666;font-style:italic">\
-</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --no-install-recommends <span style="color:#666;font-style:italic">\
-</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --option DPkg::Options::=<span style="color:#666;font-style:italic">&#34;--force-confdef&#34;</span> <span style="color:#666;font-style:italic">\
-</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    --option DPkg::Options::=<span style="color:#666;font-style:italic">&#34;--force-confold&#34;</span> <span style="color:#666;font-style:italic">\
-</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic"></span>    install openmediavault
+</span></span><span style="display:flex;"><span>apt-get --yes --auto-remove --show-upgraded <span style="color:#0ff;font-weight:bold">\
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold"></span>    --allow-downgrades --allow-change-held-packages <span style="color:#0ff;font-weight:bold">\
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold"></span>    --no-install-recommends <span style="color:#0ff;font-weight:bold">\
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold"></span>    --option DPkg::Options::=<span style="color:#0ff;font-weight:bold">&#34;--force-confdef&#34;</span> <span style="color:#0ff;font-weight:bold">\
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold"></span>    --option DPkg::Options::=<span style="color:#0ff;font-weight:bold">&#34;--force-confold&#34;</span> <span style="color:#0ff;font-weight:bold">\
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold"></span>    install openmediavault
 </span></span></code></pre></div></li>
 <li>
 <p><strong>填充 OpenMediaVault 数据库</strong></p>
 <p>使用现有的系统设置（例如网络配置）填充 OpenMediaVault 数据库：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>omv-confdbadm populate
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>omv-confdbadm populate
 </span></span></code></pre></div><blockquote>
 <p><strong>注意</strong>：仅解析 <code>/etc/network/interfaces</code> 来获取当前的网络配置。如果网络通过其他方式配置，请使用 <code>omv-firstaid</code> 进行初始网络配置。</p>
 </blockquote>
@@ -204,7 +204,7 @@
 <li>
 <p><strong>重新部署网络配置</strong></p>
 <p>通过 OpenMediaVault 使用的服务重新部署网络配置：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>omv-salt deploy run systemd-networkd
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>omv-salt deploy run systemd-networkd
 </span></span></code></pre></div><blockquote>
 <p><strong>注意</strong>：在重新部署网络配置期间，IP 地址可能会发生变化，因此当您通过 SSH 连接时可能会丢失连接。完成安装后，请尽快禁用 root 的 SSH 访问以提高安全性。</p>
 </blockquote>
