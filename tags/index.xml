@@ -9,6 +9,20 @@
     <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://neuropix.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DDIM</title>
+      <link>https://neuropix.github.io/tags/ddim/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/tags/ddim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DDPM</title>
+      <link>https://neuropix.github.io/tags/ddpm/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/tags/ddpm/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Debian</title>
       <link>https://neuropix.github.io/tags/debian/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
@@ -55,6 +69,13 @@
       <link>https://neuropix.github.io/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>扩散模型</title>
+      <link>https://neuropix.github.io/tags/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/tags/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B/</guid>
       <description></description>
     </item>
     <item>
