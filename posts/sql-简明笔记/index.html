@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://neuropix.github.io//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://neuropix.github.io//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://neuropix.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://neuropix.github.io//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://neuropix.github.io//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    SQL 简明笔记 | NeuroPix
+    
+</title>
+
+<link rel="canonical" href="https://neuropix.github.io/posts/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6824bbee0d90d5af09fed9b70395ce7076b615e315037455d903314e96ef91b.css" media="all">
+
+
+
+
+
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">NeuroPix</h1>
+
+    <div class="flex">
+        
+
+        
+        
+      
+        <p class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/categories" >
+                /categories
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/tags" >
+                /tags
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/">SQL 简明笔记</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">SQL 简明笔记</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2023-03-23T00:00:00&#43;00:00">March 23, 2023</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <h2 id="数据定义">数据定义</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">CREATE</span> <span style="font-weight:bold;text-decoration:underline">SCHEMA</span> &lt;<span style="">模式名</span>&gt; <span style="font-weight:bold;text-decoration:underline">AUTHORIZATION</span> &lt;<span style="">用户名</span>&gt;;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">DROP</span> <span style="font-weight:bold;text-decoration:underline">SCHEMA</span> &lt;<span style="">模式名</span>&gt; &lt;<span style="font-weight:bold;text-decoration:underline">CASCADE</span>|<span style="font-weight:bold;text-decoration:underline">RESTRICT</span>&gt;;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">CREATE</span> <span style="font-weight:bold;text-decoration:underline">TABLE</span> &lt;<span style="">表名</span>&gt; (&lt;<span style="">列名</span>&gt; &lt;<span style="">数据类型</span>&gt; [<span style="">列级完整性约束</span>]);
+</span></span><span style="display:flex;"><span>    &lt;<span style="">数据类型</span>&gt; = <span style="font-weight:bold;font-style:italic">CHAR</span>(n), <span style="font-weight:bold;font-style:italic">INT</span>, <span style="font-weight:bold;font-style:italic">FLOAT</span>(n), <span style="font-weight:bold;font-style:italic">DATE</span>, TIME...
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">ALTER</span> <span style="font-weight:bold;text-decoration:underline">TABLE</span> &lt;<span style="">表名</span>&gt; [<span style="font-weight:bold;text-decoration:underline">ADD</span> [<span style="font-weight:bold;text-decoration:underline">COLUMN</span>] &lt;<span style="">列名</span>&gt; &lt;<span style="">数据类型</span>&gt; [<span style="">列级完整性约束</span>]]
+</span></span><span style="display:flex;"><span>                   [<span style="font-weight:bold;text-decoration:underline">ADD</span> &lt;<span style="">表级完整性约束</span>&gt;]
+</span></span><span style="display:flex;"><span>                   [<span style="font-weight:bold;text-decoration:underline">DROP</span> [<span style="font-weight:bold;text-decoration:underline">COLUMN</span>] &lt;<span style="">列名</span>&gt; [<span style="font-weight:bold;text-decoration:underline">CASCADE</span>|<span style="font-weight:bold;text-decoration:underline">RESTRICT</span>]]
+</span></span><span style="display:flex;"><span>                   [<span style="font-weight:bold;text-decoration:underline">DROP</span> <span style="font-weight:bold;text-decoration:underline">CONSTRAINT</span> &lt;<span style="">完整性约束名</span>&gt; [<span style="font-weight:bold;text-decoration:underline">RESTRICT</span>|<span style="font-weight:bold;text-decoration:underline">CASCADE</span>]]
+</span></span><span style="display:flex;"><span>                   [<span style="font-weight:bold;text-decoration:underline">ALTER</span> [<span style="font-weight:bold;text-decoration:underline">COLUMN</span>] &lt;<span style="">列名</span>&gt; &lt;<span style="">数据类型</span>&gt;];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">DROP</span> <span style="font-weight:bold;text-decoration:underline">TABLE</span> &lt;<span style="">表名</span>&gt; [<span style="font-weight:bold;text-decoration:underline">RESTRICT</span>|<span style="font-weight:bold;text-decoration:underline">CASCADE</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">CREATE</span> [<span style="font-weight:bold;text-decoration:underline">UNIQUE</span>] [<span style="font-weight:bold;text-decoration:underline">CLUSTER</span>] <span style="font-weight:bold;text-decoration:underline">INDEX</span> &lt;<span style="">索引名</span>&gt; <span style="font-weight:bold;text-decoration:underline">ON</span> &lt;<span style="">表名</span>&gt;(&lt;<span style="">列名</span>&gt;[<span style="">次序</span>]);
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">ALTER</span> <span style="font-weight:bold;text-decoration:underline">INDEX</span> &lt;<span style="">旧索引名</span>&gt; <span style="font-weight:bold;text-decoration:underline">RENAME</span> <span style="font-weight:bold;text-decoration:underline">TO</span> &lt;<span style="">新索引名</span>&gt;;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">DROP</span> <span style="font-weight:bold;text-decoration:underline">INDEX</span> &lt;<span style="">索引名</span>&gt;;
+</span></span></code></pre></div><h2 id="数据查询">数据查询</h2>
+<p>主要就是 <code>SELECT</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">SELECT</span> [<span style="font-weight:bold;text-decoration:underline">ALL</span>|<span style="font-weight:bold;text-decoration:underline">DISTINCT</span>] &lt;<span style="">目标表达式</span>&gt;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">FROM</span> &lt;<span style="">表名或视图名</span>&gt;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">WHERE</span> &lt;<span style="">条件表达式</span>&gt;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">GROUP</span> <span style="font-weight:bold;text-decoration:underline">BY</span> &lt;<span style="">列名</span>&gt;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">ORDER</span> <span style="font-weight:bold;text-decoration:underline">BY</span> &lt;<span style="">列名</span>&gt;;
+</span></span></code></pre></div><h3 id="聚集函数">聚集函数</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">COUNT</span>(*)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">COUNT</span>([<span style="font-weight:bold;text-decoration:underline">DISTINCT</span>|<span style="font-weight:bold;text-decoration:underline">ALL</span>] &lt;<span style="">列名</span>&gt;)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">SUM</span>([<span style="font-weight:bold;text-decoration:underline">DISTINCT</span>|<span style="font-weight:bold;text-decoration:underline">ALL</span>] &lt;<span style="">列名</span>&gt;)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">AVG</span>([<span style="font-weight:bold;text-decoration:underline">DISTINCT</span>|<span style="font-weight:bold;text-decoration:underline">ALL</span>] &lt;<span style="">列名</span>&gt;)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">MIN</span>([<span style="font-weight:bold;text-decoration:underline">DISTINCT</span>|<span style="font-weight:bold;text-decoration:underline">ALL</span>] &lt;<span style="">列名</span>&gt;)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">MAX</span>([<span style="font-weight:bold;text-decoration:underline">DISTINCT</span>|<span style="font-weight:bold;text-decoration:underline">ALL</span>] &lt;<span style="">列名</span>&gt;)
+</span></span></code></pre></div><h3 id="连接">连接</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">FROM</span> &lt;<span style="">表</span> A&gt; <span style="font-weight:bold;text-decoration:underline">LEFT</span> <span style="font-weight:bold;text-decoration:underline">OUTER</span> <span style="font-weight:bold;text-decoration:underline">JOIN</span> &lt;<span style="">表</span> B&gt; <span style="font-weight:bold;text-decoration:underline">ON</span> (<span style="">连接条件</span>)
+</span></span></code></pre></div><h3 id="any-与-all-谓词">ANY 与 ALL 谓词</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">WHERE</span> &lt;<span style="">属性</span>&gt; &lt; &lt;<span style="font-weight:bold;text-decoration:underline">ANY</span>|<span style="font-weight:bold;text-decoration:underline">ALL</span>&gt;(&lt;<span style="">子查询</span>&gt;)
+</span></span></code></pre></div><h3 id="exists-谓词">EXISTS 谓词</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">WHERE</span> <span style="font-weight:bold;text-decoration:underline">EXISTS</span> (&lt;<span style="">子查询</span>&gt;)
+</span></span></code></pre></div><h3 id="集合查询">集合查询</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span>&lt;<span style="">子查询</span> A&gt; <span style="font-weight:bold;text-decoration:underline">UNION</span> &lt;<span style="">子查询</span> B&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="">子查询</span> A&gt; <span style="font-weight:bold;text-decoration:underline">INTERSECT</span> &lt;<span style="">子查询</span> B&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="">子查询</span> A&gt; <span style="font-weight:bold;text-decoration:underline">EXCEPT</span> &lt;<span style="">子查询</span> B&gt;
+</span></span></code></pre></div><h2 id="数据更新">数据更新</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">INSERT</span> <span style="font-weight:bold;text-decoration:underline">INTO</span> &lt;<span style="">表名</span>&gt; <span style="font-weight:bold;text-decoration:underline">VALUES</span>(...);
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">UPDATE</span> &lt;<span style="">表名</span>&gt; <span style="font-weight:bold;text-decoration:underline">SET</span> &lt;<span style="">列名</span>&gt; = &lt;<span style="">表达式</span>&gt; [<span style="font-weight:bold;text-decoration:underline">WHERE</span> &lt;<span style="">条件</span>&gt;];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">DELETE</span> <span style="font-weight:bold;text-decoration:underline">FROM</span> &lt;<span style="">表名</span>&gt; [<span style="font-weight:bold;text-decoration:underline">WHERE</span> &lt;<span style="">条件</span>&gt;];
+</span></span></code></pre></div><h2 id="视图">视图</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">CREATE</span> <span style="font-weight:bold;text-decoration:underline">VIEW</span> &lt;<span style="">视图名</span>&gt; <span style="font-weight:bold;text-decoration:underline">AS</span> (&lt;<span style="">子查询</span>&gt;);
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">DROP</span> <span style="font-weight:bold;text-decoration:underline">VIEW</span> &lt;<span style="">视图名</span>&gt; [<span style="font-weight:bold;text-decoration:underline">CASCADE</span>];
+</span></span></code></pre></div><h2 id="参考">参考</h2>
+<p>王珊, and 萨师煊. 数据库系统概论. Gao deng jiao yu chu ban she, 2014.</p>
+
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="NeuroPix/neuropix.github.io"
+        data-repo-id="R_kgDOM3j-IA"
+        data-category=""
+        data-category-id="DIC_kwDOM3j-IM4Ci1RI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/">
+                        GTD：一种高效的生活方式
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/">
+                        视觉 Transformer（ViT）的介绍与应用
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>
