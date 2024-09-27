@@ -6,13 +6,20 @@
     <description>Recent content in Categories on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Sep 2024 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://neuropix.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>技术</title>
-      <link>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Fri, 27 Sep 2024 10:00:00 +0800</pubDate>
-      <guid>https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <title>Technology</title>
+      <link>https://neuropix.github.io/categories/technology/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/categories/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://neuropix.github.io/categories/research/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/categories/research/</guid>
       <description></description>
     </item>
   </channel>
