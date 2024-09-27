@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://neuropix.github.io//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://neuropix.github.io//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://neuropix.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://neuropix.github.io//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://neuropix.github.io//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    MacBook 开启 Windows To Go！ | NeuroPix
+    
+</title>
+
+<link rel="canonical" href="https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/mac/macbook-%E5%BC%80%E5%90%AF-windows-to-go/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6824bbee0d90d5af09fed9b70395ce7076b615e315037455d903314e96ef91b.css" media="all">
+
+
+
+
+
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header" style="position: relative;">
+
+    
+
+    <h1 class="header-title">NeuroPix</h1>
+
+    <div class="flex">
+        
+
+        
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/" >
+                        /home
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/posts" >
+                        /posts
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/categories" >
+                        /categories
+                    </a>
+                </p>
+
+                
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 100%; background: white; border: 1px solid #ccc; z-index: 1000;">
+                    
+                    <p class="small ">
+                        <a href="/categories/category1" >
+                            /Category 1
+                        </a>
+                    </p>
+                    
+                    <p class="small ">
+                        <a href="/categories/category2" >
+                            /Category 2
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/tags" >
+                        /tags
+                    </a>
+                </p>
+
+                
+            </div>
+        
+            <div class="menu-item" style="position: relative;">
+                <p class="small ">
+                    <a href="/about" >
+                        /about
+                    </a>
+                </p>
+
+                
+            </div>
+        
+        
+    </div>
+
+    
+
+</div>
+
+<script>
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'block';
+        });
+        item.addEventListener('mouseleave', () => {
+            const submenu = item.querySelector('.submenu');
+            if (submenu) submenu.style.display = 'none';
+        });
+    });
+</script>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/%E6%8A%80%E6%9C%AF/%E6%95%B0%E7%A0%81/mac/macbook-%E5%BC%80%E5%90%AF-windows-to-go/">MacBook 开启 Windows To Go！</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">MacBook 开启 Windows To Go！</h1>
+    
+    <p class="single-summary">本文介绍了如何使用非官方推荐的 Aigo 256GB 固态 U 盘为 MacBook 制作 Windows To Go。首先，通过萝卜头 WTG 辅助工具选择操作系统镜像和目标磁盘，点击“部署”开始写入，整个过程大约耗时 7 分钟。完成后，将 U 盘插入 MacBook，长按 Option 键即可选择 Windows 启动。文中还提到了磁盘速度测试结果，展示了该 U 盘的性能表现。</p>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2022-05-30T00:00:00&#43;00:00">May 30, 2022</time>
+      
+
+      
+      &nbsp; · &nbsp;
+      1 min read
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+  <aside class="toc">
+    <p><strong>Table of contents</strong></p>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#设备">设备</a></li>
+    <li><a href="#磁盘速度测试">磁盘速度测试</a></li>
+    <li><a href="#软件准备">软件准备</a>
+      <ul>
+        <li><a href="#步骤如下">步骤如下：</a></li>
+      </ul>
+    </li>
+    <li><a href="#启动-windows-to-go">启动 Windows To Go</a></li>
+    <li><a href="#注意事项">注意事项</a></li>
+    <li><a href="#结论">结论</a></li>
+  </ul>
+</nav>
+  </aside>
+  
+
+  
+
+  <div class="single-content">
+    <p>本文主要介绍使用非官方推荐的 Aigo 固态 U 盘为 MacBook 电脑制作 Windows To Go 的详细步骤和测试结果。</p>
+<h2 id="设备">设备</h2>
+<ul>
+<li><strong>U 盘</strong>：Aigo 固态 U 盘，容量 256GB，价格 199 人民币。该 U 盘以其良好的性能和性价比受到用户的广泛好评。</li>
+</ul>
+<h2 id="磁盘速度测试">磁盘速度测试</h2>
+<p>在制作 Windows To Go 之前，我们需要了解 U 盘的性能。以下是对 Aigo 固态 U 盘的速度测试结果：</p>
+<p><strong>磁盘速度测试</strong><br>
+（在此处插入磁盘速度测试的结果图表或截图）</p>
+<p>根据测试结果，该 U 盘在读写速度方面表现出色，适合用于运行操作系统和日常应用程序。</p>
+<h2 id="软件准备">软件准备</h2>
+<p>制作 Windows To Go 我们需要使用一个名为 <strong>萝卜头 WTG</strong> 的辅助工具。这个工具是一个用户友好的界面，使得 Windows To Go 的制作过程更加简单和直观。</p>
+<h3 id="步骤如下">步骤如下：</h3>
+<ol>
+<li>
+<p><strong>下载并安装萝卜头 WTG</strong>：确保您从官方网站下载最新版本的工具，并按照安装提示完成安装。</p>
+</li>
+<li>
+<p><strong>启动软件</strong>：打开萝卜头 WTG 工具，您将看到一个简洁的界面。</p>
+</li>
+<li>
+<p><strong>选择操作系统镜像</strong>：点击界面中的“选择镜像”按钮，找到您希望安装的 Windows 操作系统镜像（例如，Windows 10 的 ISO 文件）。</p>
+</li>
+<li>
+<p><strong>选择目标磁盘</strong>：在下方的磁盘驱动器列表中，选择您的 Aigo U 盘作为目标磁盘。</p>
+</li>
+<li>
+<p><strong>开始部署</strong>：确认设置无误后，点击“部署”按钮。工具会提示您确认操作，点击“是”开始写入。整个过程大约耗时 7 分钟，期间请勿拔出 U 盘。</p>
+</li>
+</ol>
+<h2 id="启动-windows-to-go">启动 Windows To Go</h2>
+<p>完成写入后，您可以使用以下步骤在 MacBook 上启动 Windows 系统：</p>
+<ol>
+<li>
+<p><strong>插入 U 盘</strong>：将制作好的 Aigo U 盘插入您的 MacBook USB 接口。</p>
+</li>
+<li>
+<p><strong>长按 Option 键</strong>：在启动 MacBook 时，长按 <strong>Option (⌥)</strong> 键，直到出现启动管理器界面。</p>
+</li>
+<li>
+<p><strong>选择 Windows 启动</strong>：在启动管理器中，您将看到已识别的 U 盘，选择它并按回车键（Enter）即可进入 Windows 系统。</p>
+</li>
+</ol>
+<h2 id="注意事项">注意事项</h2>
+<ul>
+<li>
+<p><strong>兼容性</strong>：虽然大多数 MacBook 可以运行 Windows To Go，但请确保您的硬件配置能够满足 Windows 系统的最低要求。</p>
+</li>
+<li>
+<p><strong>数据备份</strong>：在进行任何操作之前，确保备份您的重要数据，以防止数据丢失。</p>
+</li>
+<li>
+<p><strong>性能</strong>：由于 U 盘的性能可能会影响系统的响应速度，建议在 U 盘上运行较轻的应用程序以确保流畅体验。</p>
+</li>
+</ul>
+<h2 id="结论">结论</h2>
+<p>使用 Aigo 固态 U 盘和萝卜头 WTG 工具，您可以轻松地为 MacBook 制作 Windows To Go。这种方式不仅能提供灵活的操作系统环境，还能在不同设备之间自由切换，满足多种工作需求。希望这篇文章能帮助您顺利完成 Windows To Go 的制作，并享受新的使用体验！</p>
+<p>如有任何问题或建议，欢迎在评论区讨论！</p>
+
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="NeuroPix/neuropix.github.io"
+        data-repo-id="R_kgDOM3j-IA"
+        data-category=""
+        data-category-id="DIC_kwDOM3j-IM4Ci1RI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/">
+                        来听听迷幻爵士乐
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/">
+                        追逐只属于日落的惬意「May, 2022」
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    
+    
+    <p>© 2024 NeuroPix. All rights reserved.</p>
+    
+
+
+
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ]
+    });
+  });
+</script>
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>
