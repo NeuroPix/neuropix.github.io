@@ -6,8 +6,15 @@
     <description>Recent content in Research on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://neuropix.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>理解 DDPM 和 DDIM</title>
+      <link>https://neuropix.github.io/posts/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</guid>
+      <description>扩散模型，特别是 DDPM（Denoising Diffusion Probabilistic Models）和 DDIM（Denoising Diffusion Implicit Models），是一种强大的生成模型，通过逐步添加噪声并学习去噪过程，从真实数据生成新图像或音频。DDPM 依赖于随机的反向去噪过程，而 DDIM 则采用确定性反向过程，提升了生成效率，允许更少的步骤生成高质量图像。这些模型在图像生成领域展现出显著的能力，为创作提供了新的可能性。</description>
+    </item>
     <item>
       <title>CLIP：跨模态学习的突破</title>
       <link>https://neuropix.github.io/posts/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</link>
