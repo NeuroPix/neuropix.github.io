@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on NeuroPix</title>
+    <link>https://neuropix.github.io/categories/tech/</link>
+    <description>Recent content in Tech on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 用法全解</title>
+      <link>https://neuropix.github.io/posts/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</guid>
+      <description>Git 是一种强大的版本控制工具，广泛应用于软件开发，以高效管理代码和促进团队协作。本文介绍了 Git 的安装、基本配置、仓库管理、常用命令、分支和远程操作等关键功能，并详细说明了如何使用子模块、钩子、查看提交历史以及撤销更改等技巧。掌握这些基本用法将显著提高开发效率，使开发者能够更顺利地进行项目管理和协作开发。</description>
+    </item>
+    <item>
+      <title>Makefile 使用指南</title>
+      <link>https://neuropix.github.io/posts/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <description>本文介绍了在Linux环境中使用&lt;code&gt;make&lt;/code&gt;和Makefile进行自动化编译的基本概念和操作。通过简单的命令，开发者可以高效地编译和安装软件。Makefile文件指导&lt;code&gt;make&lt;/code&gt;如何根据源文件生成目标文件，并通过定义规则、依赖关系和命令来实现增量编译。文章还讲解了如何安装&lt;code&gt;make&lt;/code&gt;、编写基本规则、使用伪目标、执行多条命令及定义和引用环境变量等技巧，从而提高开发效率，为Linux内核开发打下基础。</description>
+    </item>
+    <item>
+      <title>在 Debian 上安装 OpenMediaVault 的指南</title>
+      <link>https://neuropix.github.io/posts/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</guid>
+      <description>本文介绍了如何在 Debian 系统上安装 OpenMediaVault，提供了详细的步骤，包括安装前的准备、安装密钥环、添加包存储库、安装软件包、填充数据库以及重新部署网络配置。完成安装后，用户可以通过 Web 浏览器使用默认凭据访问 OpenMediaVault 界面，快速构建功能强大的网络附加存储（NAS）解决方案。通过简单命令，用户能够轻松实现高效的 NAS 设置。有关更多信息，请参考官方文档。</description>
+    </item>
+    <item>
+      <title>SQL 简明笔记</title>
+      <link>https://neuropix.github.io/posts/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</guid>
+      <description>本文提供了数据库操作的基本SQL语法，包括数据定义、查询、更新和视图的创建。数据定义部分涵盖了模式、表和索引的创建、修改和删除。查询部分详细介绍了&lt;code&gt;SELECT&lt;/code&gt;语句及其聚集函数、连接、&lt;code&gt;ANY&lt;/code&gt;和&lt;code&gt;ALL&lt;/code&gt;谓词、&lt;code&gt;EXISTS&lt;/code&gt;谓词以及集合查询的用法。更新部分包括数据的插入、更新和删除操作。最后，视图的创建和删除也被简要提及，参考文献为王珊和萨师煊的《数据库系统概论》。</description>
+    </item>
+    <item>
+      <title>扩展存储解决方案</title>
+      <link>https://neuropix.github.io/posts/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+      <description>最近，我因为移动硬盘存储空间告急，决定购买一块新的机械硬盘进行数据存储与备份。在考虑了读写速度、便携性和价格后，我最终选择了一款西部数据的 WD40PURX 4TB 紫盘，这款硬盘适合长时间稳定工作，且价格相对实惠。为了配合这块硬盘，我购买了绿联的硬盘盒，尽管对其供电规格有些担忧。开箱后，硬盘的安装过程顺利，速度测试显示其性能超出预期，实际拷贝速度也令人满意。</description>
+    </item>
+    <item>
+      <title>MacBook 开启 Windows To Go！</title>
+      <link>https://neuropix.github.io/posts/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
+      <description>本文介绍了如何使用非官方推荐的 Aigo 256GB 固态 U 盘为 MacBook 制作 Windows To Go。首先，通过萝卜头 WTG 辅助工具选择操作系统镜像和目标磁盘，点击“部署”开始写入，整个过程大约耗时 7 分钟。完成后，将 U 盘插入 MacBook，长按 Option 键即可选择 Windows 启动。文中还提到了磁盘速度测试结果，展示了该 U 盘的性能表现。</description>
+    </item>
+    <item>
+      <title>一篇文章搞定 macOS 截图</title>
+      <link>https://neuropix.github.io/posts/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</guid>
+      <description>本文详细介绍了macOS系统中的截图功能，包括使用快捷键进行全屏和部分截图、截取窗口以及如何使用自带的“截屏”应用和第三方工具iShot进行长截图和动图录制。通过快捷键如&lt;strong&gt;Command + Shift + 3/4&lt;/strong&gt;和&lt;strong&gt;Command + Shift + 5&lt;/strong&gt;，用户可以方便地进行各种截图操作，而iShot则提供了更强大的长截图和动图制作功能。掌握这些截图技巧能显著提升工作和学习的效率。</description>
+    </item>
+    <item>
+      <title>将 Hexo 博客部署到云服务器</title>
+      <link>https://neuropix.github.io/posts/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description>本文提供了详细的步骤指南，教您如何配置腾讯云轻量云服务器，以搭建个人博客。教程首先介绍了如何通过 SSH 连接和设置服务器，包括编辑 SSH 配置文件、添加用户并赋予管理员权限。接着，读者将学习如何安装 Git 并创建一个 Git 仓库，用于版本控制和代码管理。随后，文章指导用户安装 Apache2 服务器程序，并配置 Git 钩子，以便在代码推送时自动更新网站内容。最后，读者将配置 Hexo 博客并进行部署，使其能够在新搭建的服务器上运行。通过这些步骤，您可以轻松搭建一个高效的博客平台。</description>
+    </item>
+  </channel>
+</rss>
