@@ -18,11 +18,11 @@
 
 <title>
     
-    视觉 Transformer（ViT）的介绍与应用 | NeuroPix
+    理解 DDPM 和 DDIM | NeuroPix
     
 </title>
 
-<link rel="canonical" href="https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/"/>
+<link rel="canonical" href="https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90%E5%BC%8F/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/"/>
 
 
 
@@ -149,14 +149,14 @@
                     </p>
                      
                     <p class="small " style="margin-left: 10px; margin-right: 10px;">
-                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e7%90%86%e8%a7%a3"  style="color: var(--content-primary);"> 
-                            /理解
+                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e7%94%9f%e6%88%90%e5%bc%8f"  style="color: var(--content-primary);"> 
+                            /生成式
                         </a>
                     </p>
                      
                     <p class="small " style="margin-left: 10px; margin-right: 10px;">
-                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e7%94%9f%e6%88%90"  style="color: var(--content-primary);"> 
-                            /生成
+                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e8%a7%86%e8%a7%89%e7%90%86%e8%a7%a3"  style="color: var(--content-primary);"> 
+                            /视觉理解
                         </a>
                     </p>
                     
@@ -278,9 +278,9 @@
 
     
 
-    <h1 class="single-title">视觉 Transformer（ViT）的介绍与应用</h1>
+    <h1 class="single-title">理解 DDPM 和 DDIM</h1>
     
-    <p class="single-summary">视觉 Transformer（ViT）是 Google Research 提出的新型计算机视觉架构，它通过将图像分割成小的 patch 并利用 Transformer 的自注意力机制来处理图像，捕捉长距离依赖关系。ViT 的主要特点包括 patch 分割、位置编码和在大规模数据集上的预训练与微调，使其在图像分类、目标检测、图像分割和生成任务等多个计算机视觉领域表现出色。ViT 正在逐渐改变计算机视觉的研究和应用，为未来的创新和改进奠定基础。</p>
+    <p class="single-summary">扩散模型，特别是 DDPM（Denoising Diffusion Probabilistic Models）和 DDIM（Denoising Diffusion Implicit Models），是一种强大的生成模型，通过逐步添加噪声并学习去噪过程，从真实数据生成新图像或音频。DDPM 依赖于随机的反向去噪过程，而 DDIM 则采用确定性反向过程，提升了生成效率，允许更少的步骤生成高质量图像。这些模型在图像生成领域展现出显著的能力，为创作提供了新的可能性。</p>
     
 
     
@@ -289,7 +289,7 @@
       
       
       
-      <time datetime="2024-09-26T00:00:00&#43;00:00">September 26, 2024</time>
+      <time datetime="2024-09-27T00:00:00&#43;00:00">September 27, 2024</time>
       
 
       
@@ -309,10 +309,24 @@
     <p><strong>Table of contents</strong></p>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#什么是视觉-transformervit">什么是视觉 Transformer（ViT）？</a></li>
-    <li><a href="#vit-的主要特点">ViT 的主要特点</a></li>
-    <li><a href="#vit-的应用">ViT 的应用</a></li>
-    <li><a href="#结论">结论</a></li>
+    <li><a href="#什么是扩散模型">什么是扩散模型？</a>
+      <ul>
+        <li><a href="#添加噪声的过程">添加噪声的过程</a></li>
+      </ul>
+    </li>
+    <li><a href="#去噪扩散概率模型ddpm">去噪扩散概率模型（DDPM）</a>
+      <ul>
+        <li><a href="#学习去噪">学习去噪</a></li>
+        <li><a href="#训练模型">训练模型</a></li>
+      </ul>
+    </li>
+    <li><a href="#去噪扩散隐式模型ddim">去噪扩散隐式模型（DDIM）</a>
+      <ul>
+        <li><a href="#确定性反向过程">确定性反向过程</a></li>
+        <li><a href="#优化采样步骤">优化采样步骤</a></li>
+      </ul>
+    </li>
+    <li><a href="#总结">总结</a></li>
   </ul>
 </nav>
   </aside>
@@ -321,43 +335,60 @@
   
 
   <div class="single-content">
-    <p>在过去的几年中，深度学习领域取得了巨大的进展，尤其是在计算机视觉任务中。传统上，卷积神经网络（CNN）是处理图像的主要工具。然而，近年来，视觉 Transformer（ViT）作为一种新的架构，逐渐受到研究人员的关注。</p>
-<h2 id="什么是视觉-transformervit">什么是视觉 Transformer（ViT）？</h2>
-<p>视觉 Transformer（ViT）是由 Google Research 提出的，它将 Transformer 架构应用于计算机视觉领域。ViT 通过将图像划分为若干个小的 patch，并将这些 patch 线性嵌入到 Transformer 中进行处理，从而实现图像分类等任务。该方法的核心思想是利用 Transformer 的自注意力机制来捕捉图像中的长距离依赖关系。</p>
-<h2 id="vit-的主要特点">ViT 的主要特点</h2>
-<ol>
-<li>
-<p><strong>Patch 分割</strong>：ViT 将输入图像划分为固定大小的 patch（例如 16x16），然后将每个 patch 展平并嵌入到一个高维空间中。这一过程将图像转换为一系列向量，为 Transformer 的输入做好准备。</p>
-</li>
-<li>
-<p><strong>位置编码</strong>：由于 Transformer 不具有 CNN 的空间结构感知能力，ViT 引入了位置编码，以便在处理图像时保留每个 patch 的位置信息。</p>
-</li>
-<li>
-<p><strong>自注意力机制</strong>：ViT 利用 Transformer 的自注意力机制，使得模型能够关注图像中的不同区域，从而捕捉到图像中更复杂的特征。</p>
-</li>
-<li>
-<p><strong>预训练与微调</strong>：ViT 通常在大规模数据集上进行预训练，然后在特定任务上进行微调。这种方法在多个计算机视觉基准上取得了显著的性能提升。</p>
-</li>
-</ol>
-<h2 id="vit-的应用">ViT 的应用</h2>
-<p>视觉 Transformer 在许多计算机视觉任务中显示出了优异的性能，以下是一些具体应用：</p>
-<ol>
-<li>
-<p><strong>图像分类</strong>：ViT 在大规模图像分类任务上表现出色，如 ImageNet 挑战。</p>
-</li>
-<li>
-<p><strong>目标检测</strong>：将 ViT 与目标检测框架结合，可以有效提高目标检测的准确性。</p>
-</li>
-<li>
-<p><strong>图像分割</strong>：ViT 也被应用于语义分割任务，通过自注意力机制实现更精细的分割效果。</p>
-</li>
-<li>
-<p><strong>生成模型</strong>：ViT 可以用于生成任务，如图像生成和图像超分辨率。</p>
-</li>
-</ol>
-<h2 id="结论">结论</h2>
-<p>视觉 Transformer（ViT）作为一种新的架构，正在逐渐改变计算机视觉的研究和应用。它的自注意力机制和高效的特征提取能力使得 ViT 成为解决许多视觉任务的有效工具。随着对 Transformer 架构的深入研究，我们可以期待未来会有更多的创新和改进出现。</p>
-<p>希望这篇文章能够帮助你理解视觉 Transformer 的基本概念及其应用。如果你有任何问题或想法，请在评论区留言与我交流！</p>
+    <p>在深度学习中，扩散模型是一种强大的生成模型，可以用来生成新的图像、音频等。我们将逐步推导 DDPM（Denoising Diffusion Probabilistic Models）和 DDIM（Denoising Diffusion Implicit Models）的过程，帮助大家理解其基本原理和工作方式。</p>
+<h2 id="什么是扩散模型">什么是扩散模型？</h2>
+<p>扩散模型的核心思想是通过逐步添加噪声，模拟从真实数据分布（例如一张真实图片）到简单分布（如标准高斯分布）的过程。我们可以把这个过程想象成从一张清晰的图片开始，逐渐让它变得模糊，最终看起来就像是随机的噪声。</p>
+<h3 id="添加噪声的过程">添加噪声的过程</h3>
+<p>我们从真实的数据 $x_0$ 开始（比如一张清晰的猫的图片）。通过一个特定的过程，我们逐步向它添加噪声，直到它变成几乎看不出是什么的噪声。这个过程可以用一个公式表示：</p>
+<p>$$
+q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1 - \beta_t} x_{t-1}, \beta_t I)
+$$</p>
+<ul>
+<li>$x_t$：表示经过第 $t$ 步后的数据。</li>
+<li>$\beta_t$：控制噪声强度的参数。一般来说，$\beta_t$ 是一个逐渐增大的值，意味着在后面的步骤中添加的噪声越来越多。</li>
+<li>$I$：是单位矩阵，表示每个维度的噪声都是独立的。</li>
+</ul>
+<p>经过多个步骤后，数据 $x$ 将最终趋近于标准正态分布，也就是“完全噪声”状态：</p>
+<p>$$
+q(x_T | x_0) = \mathcal{N}(x_T; 0, I)
+$$</p>
+<p>这意味着，经过 $T$ 步后，我们的图片就完全变成了随机噪声。</p>
+<h2 id="去噪扩散概率模型ddpm">去噪扩散概率模型（DDPM）</h2>
+<h3 id="学习去噪">学习去噪</h3>
+<p>为了能够从噪声中恢复出有意义的数据，我们需要训练一个模型，帮助我们逐步去掉噪声。这个模型可以看作是一个去噪网络，记作 $\epsilon_\theta(x_t, t)$，它的任务是预测在时间步 $t$ 下的真实噪声。</p>
+<p>我们定义反向过程的分布为：</p>
+<p>$$
+p_{\theta}(x_{t-1} | x_t) = \mathcal{N}(x_{t-1}; \mu_\theta(x_t, t), \Sigma_\theta(x_t, t))
+$$</p>
+<ul>
+<li>这里，$\mu_\theta$ 和 $\Sigma_\theta$ 是通过神经网络预测的均值和方差，表示在当前噪声 $x_t$ 下我们应该得到的更清晰的图像 $x_{t-1}$。</li>
+</ul>
+<h3 id="训练模型">训练模型</h3>
+<p>我们需要让模型学会如何去除噪声，训练目标是最小化模型预测的噪声与真实噪声之间的差距。我们通过下面的公式来计算损失：</p>
+<p>$$
+L(\theta) = \mathbb{E}_{t, x_0, \epsilon} \left[ L_1 \right]
+$$</p>
+<p>其中 $L_1$ 表示：</p>
+<p>$$
+L_1 = \left| \epsilon - \epsilon_\theta(x_t, t) \right|^2
+$$</p>
+<p>这里的 $\epsilon$ 是我们在添加噪声时实际加入的噪声，而 $\epsilon_\theta(x_t, t)$ 是模型预测的噪声。我们希望这两者尽可能接近。</p>
+<h2 id="去噪扩散隐式模型ddim">去噪扩散隐式模型（DDIM）</h2>
+<p>DDIM 是对 DDPM 的一种改进，目的是提高生成的效率。</p>
+<h3 id="确定性反向过程">确定性反向过程</h3>
+<p>与 DDPM 的随机反向过程不同，DDIM 采用确定性的方式来生成数据。这意味着我们可以在生成过程中更加精准地控制输出结果。DDIM 的反向过程可以表示为：</p>
+<p>$$
+x_{t-1} = \sqrt{\alpha_{t-1}} \left( \frac{x_t - \sqrt{1 - \alpha_t} \epsilon_\theta(x_t, t)}{\sqrt{\alpha_t}} \right) + \sigma_t z
+$$</p>
+<ul>
+<li>$\sigma_t$：控制我们添加噪声的强度。</li>
+<li>$z$：是随机噪声项，通常为标准正态分布的样本。</li>
+</ul>
+<h3 id="优化采样步骤">优化采样步骤</h3>
+<p>DDIM 的一个重要优势是我们可以减少生成过程中的采样步骤。假设我们通常需要 $T$ 步来生成图像，但 DDIM 允许我们只使用 $T&rsquo; &lt; T$ 的步骤，从而加快生成速度。这使得模型在生成高质量图像时更为高效。</p>
+<h2 id="总结">总结</h2>
+<p>通过扩散模型，DDPM 和 DDIM 提供了一种有效的生成方法。DDPM 依赖于随机的去噪过程，而 DDIM 则通过确定性过程提升了生成的效率。两者都在图像生成领域展现出了强大的能力。</p>
+<p>希望这篇文章能够帮助你更清楚地理解 DDPM 和 DDIM 的基本原理和推导过程！如果你对扩散模型或其他主题有更多问题，欢迎随时交流！</p>
 
     
     <script src="https://giscus.app/client.js"
@@ -398,8 +429,8 @@
             <div class="single-pagination-container-prev">
                 <div class="single-pagination-text">←</div>
                 <div class="single-pagination-text">
-                    <a href="/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/">
-                        SQL 简明笔记
+                    <a href="/posts/%E7%A7%91%E7%A0%94/%E8%A7%86%E8%A7%89%E7%90%86%E8%A7%A3/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/">
+                        CLIP：跨模态学习的突破
                     </a>
                 </div>
             </div>
@@ -410,8 +441,8 @@
             
             <div class="single-pagination-container-next">
                 <div class="single-pagination-text">
-                    <a href="/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/">
-                        Transformer 架构的演变与应用
+                    <a href="/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/">
+                        在 Debian 上安装 OpenMediaVault 的指南
                     </a>
                 </div>
                 <div class="single-pagination-text">→</div>
