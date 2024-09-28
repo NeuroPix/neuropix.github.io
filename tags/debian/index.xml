@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debian on NeuroPix</title>
-    <link>http://localhost:1313/tags/debian/</link>
+    <link>https://neuropix.github.io/tags/debian/</link>
     <description>Recent content in Debian on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://neuropix.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Debian 上安装 OpenMediaVault 的指南</title>
-      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</link>
+      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</guid>
       <description>本文介绍了如何在 Debian 系统上安装 OpenMediaVault，提供了详细的步骤，包括安装前的准备、安装密钥环、添加包存储库、安装软件包、填充数据库以及重新部署网络配置。完成安装后，用户可以通过 Web 浏览器使用默认凭据访问 OpenMediaVault 界面，快速构建功能强大的网络附加存储（NAS）解决方案。通过简单命令，用户能够轻松实现高效的 NAS 设置。有关更多信息，请参考官方文档。</description>
     </item>
   </channel>

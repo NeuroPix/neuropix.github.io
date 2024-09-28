@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SQL on NeuroPix</title>
-    <link>http://localhost:1313/tags/sql/</link>
+    <link>https://neuropix.github.io/tags/sql/</link>
     <description>Recent content in SQL on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://neuropix.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL 简明笔记</title>
-      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</link>
+      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</guid>
       <description>本文提供了数据库操作的基本SQL语法，包括数据定义、查询、更新和视图的创建。数据定义部分涵盖了模式、表和索引的创建、修改和删除。查询部分详细介绍了&lt;code&gt;SELECT&lt;/code&gt;语句及其聚集函数、连接、&lt;code&gt;ANY&lt;/code&gt;和&lt;code&gt;ALL&lt;/code&gt;谓词、&lt;code&gt;EXISTS&lt;/code&gt;谓词以及集合查询的用法。更新部分包括数据的插入、更新和删除操作。最后，视图的创建和删除也被简要提及，参考文献为王珊和萨师煊的《数据库系统概论》。</description>
     </item>
   </channel>

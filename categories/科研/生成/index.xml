@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>科研/生成 on NeuroPix</title>
-    <link>http://localhost:1313/categories/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/</link>
+    <link>https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/</link>
     <description>Recent content in 科研/生成 on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>理解 DDPM 和 DDIM</title>
-      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</link>
+      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</guid>
+      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</guid>
       <description>扩散模型，特别是 DDPM（Denoising Diffusion Probabilistic Models）和 DDIM（Denoising Diffusion Implicit Models），是一种强大的生成模型，通过逐步添加噪声并学习去噪过程，从真实数据生成新图像或音频。DDPM 依赖于随机的反向去噪过程，而 DDIM 则采用确定性反向过程，提升了生成效率，允许更少的步骤生成高质量图像。这些模型在图像生成领域展现出显著的能力，为创作提供了新的可能性。</description>
     </item>
     <item>
       <title>分类：科研/生成</title>
-      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</link>
+      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</guid>
+      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</guid>
       <description>该分类下共有 1 篇文章。</description>
     </item>
   </channel>
