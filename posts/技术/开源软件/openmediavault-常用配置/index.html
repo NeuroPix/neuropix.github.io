@@ -313,6 +313,7 @@
       <ul>
         <li><a href="#启用-ssl-连接">启用 SSL 连接</a></li>
         <li><a href="#申请证书">申请证书</a></li>
+        <li><a href="#设置-tcp-转发以支持-vscode">设置 TCP 转发以支持 VSCode</a></li>
       </ul>
     </li>
   </ul>
@@ -324,7 +325,7 @@
 
   <div class="single-content">
     <h3 id="启用-ssl-连接">启用 SSL 连接</h3>
-<p>在 OpenMediaVault (OMV) 中，启用 SSL 连接可以提高访问 Web 界面的安全性，以下是启用 SSL 连接的步骤：</p>
+<p>在 OpenMediaVault (OMV) 中启用 SSL 连接可以显著提高访问 Web 界面的安全性。以下是启用 SSL 连接的具体步骤：</p>
 <ol>
 <li>
 <p><strong>进入 OMV 管理界面</strong>：</p>
@@ -335,11 +336,11 @@
 <li>
 <p><strong>登录 OMV 管理页面</strong>：</p>
 <ul>
-<li>使用默认的用户名 <code>admin</code> 和你设置的密码登录。</li>
+<li>使用默认用户名 <code>admin</code> 和您设置的密码进行登录。</li>
 </ul>
 </li>
 <li>
-<p><strong>导航到 SSL/TLS 设置</strong>：</p>
+<p><strong>导航至 SSL/TLS 设置</strong>：</p>
 <ul>
 <li>点击左侧的 “系统” &gt; “证书” &gt; “SSL 证书”。</li>
 </ul>
@@ -347,13 +348,13 @@
 <li>
 <p><strong>申请或导入证书</strong>：</p>
 <ul>
-<li>你可以选择自己申请证书，或者使用 Let&rsquo;s Encrypt 申请免费证书。</li>
+<li>您可以选择自己申请证书，或使用 Let&rsquo;s Encrypt 申请免费的 SSL 证书。</li>
 </ul>
 </li>
 <li>
 <p><strong>启用 HTTPS 连接</strong>：</p>
 <ul>
-<li>进入 “服务” &gt; “Web 管理”。</li>
+<li>转到 “服务” &gt; “Web 管理”。</li>
 <li>勾选 “启用 HTTPS” 选项。</li>
 <li>选择刚刚申请或导入的证书。</li>
 <li>保存并应用更改。</li>
@@ -362,7 +363,7 @@
 <li>
 <p><strong>测试 SSL 连接</strong>：</p>
 <ul>
-<li>使用 <code>https://</code> 开头的 URL 重新访问 OMV 界面以确保 SSL 连接正常工作。</li>
+<li>使用 <code>https://</code> 开头的 URL 重新访问 OMV 界面，以确保 SSL 连接正常工作。</li>
 </ul>
 </li>
 </ol>
@@ -371,19 +372,22 @@
 <li>
 <p><strong>使用 Let&rsquo;s Encrypt 申请免费证书</strong>：</p>
 <ul>
-<li>确保你的 OMV 系统安装了 Let&rsquo;s Encrypt 插件。</li>
+<li>确保您的 OMV 系统已安装 Let&rsquo;s Encrypt 插件。</li>
 <li>在左侧导航中，选择 “服务” &gt; “Let&rsquo;s Encrypt”。</li>
-<li>填写你的域名、电子邮件，并按照提示完成申请。</li>
+<li>填写您的域名和电子邮件地址，并按照提示完成申请流程。</li>
 </ul>
 </li>
 <li>
 <p><strong>导入自签名证书</strong>：</p>
 <ul>
-<li>如果不使用公共 CA 颁发的证书，可以生成自签名证书并导入。</li>
-<li>点击 “SSL 证书” &gt; “添加”，选择 “自签名证书”，填写必要信息并生成证书。</li>
+<li>如果不使用公共 CA 颁发的证书，您可以生成自签名证书并导入。</li>
+<li>点击 “SSL 证书” &gt; “添加”，选择 “自签名证书”，填写必要的信息并生成证书。</li>
 </ul>
 </li>
 </ol>
+<h3 id="设置-tcp-转发以支持-vscode">设置 TCP 转发以支持 VSCode</h3>
+<p>安装 OMV 之后，如果您无法使用 VSCode 连接到 OMV，您可能需要在 OMV 设置中启用 TCP 转发。TCP 转发允许通过 SSH 隧道进行连接，这样可以安全地访问 OMV 服务。</p>
+<p>通过以上步骤，您应该能够成功启用 SSL 连接并进行相应的配置，以提高 OMV 的安全性。如果您在过程中遇到问题，请随时寻求帮助！</p>
 
     
     <script src="https://giscus.app/client.js"
