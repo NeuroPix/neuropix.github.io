@@ -30,7 +30,7 @@
       <description>视觉 Transformer（ViT）是 Google Research 提出的新型计算机视觉架构，它通过将图像分割成小的 patch 并利用 Transformer 的自注意力机制来处理图像，捕捉长距离依赖关系。ViT 的主要特点包括 patch 分割、位置编码和在大规模数据集上的预训练与微调，使其在图像分类、目标检测、图像分割和生成任务等多个计算机视觉领域表现出色。ViT 正在逐渐改变计算机视觉的研究和应用，为未来的创新和改进奠定基础。</description>
     </item>
     <item>
-      <title>分类：科研/理解</title>
+      <title>首页/分类：科研/理解</title>
       <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E5%88%86%E7%B1%BB%E7%90%86%E8%A7%A3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E5%88%86%E7%B1%BB%E7%90%86%E8%A7%A3/</guid>
