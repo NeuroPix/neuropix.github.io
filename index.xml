@@ -2,311 +2,311 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on NeuroPix</title>
-    <link>https://neuropix.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Sep 2024 00:46:06 +0800</lastBuildDate>
-    <atom:link href="https://neuropix.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub 使用指南</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Sat, 28 Sep 2024 00:46:06 +0800</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
       <description>GitHub 是一个基于 Git 的平台，为开发者提供了强大的代码托管和协作工具。通过注册账户、创建和管理仓库、克隆代码、提交更改、管理分支以及使用 Pull Requests 和 Issues 等功能，用户能够高效地进行个人和团队的开发工作。无论是初学者还是经验丰富的开发者，GitHub 都为开源项目和软件开发提供了理想的环境，助力团队合作与创新。</description>
     </item>
     <item>
       <title>OpenMediaVault 常用配置</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Fri, 27 Sep 2024 22:35:22 +0800</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/openmediavault-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</guid>
       <description>这篇博文介绍了在 OpenMediaVault (OMV) 中启用 SSL 连接的步骤，以提高 Web 界面的安全性。用户需登录 OMV 管理界面，导航至 SSL/TLS 设置，申请或导入证书，启用 HTTPS 连接并保存更改。文中还详细说明了如何使用 Let&amp;rsquo;s Encrypt 申请免费证书或导入自签名证书，以确保 SSL 连接的正常工作。</description>
     </item>
     <item>
       <title>推导无穷级数</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</link>
       <pubDate>Fri, 27 Sep 2024 22:35:22 +0800</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E6%8E%A8%E5%AF%BC%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</guid>
       <description>本文将深入探讨无穷级数的推导及其应用，分析几种常见的无穷级数及其收敛性。</description>
     </item>
     <item>
       <title>推荐 MirrorZ 镜像站：开源软件的优质资源</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/%E6%8E%A8%E8%8D%90-mirrorz-%E9%95%9C%E5%83%8F%E7%AB%99%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/%E6%8E%A8%E8%8D%90-mirrorz-%E9%95%9C%E5%83%8F%E7%AB%99%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90/</link>
       <pubDate>Fri, 27 Sep 2024 22:35:22 +0800</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/%E6%8E%A8%E8%8D%90-mirrorz-%E9%95%9C%E5%83%8F%E7%AB%99%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/%E6%8E%A8%E8%8D%90-mirrorz-%E9%95%9C%E5%83%8F%E7%AB%99%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90/</guid>
       <description>MirrorZ 镜像站是一个提供丰富开源软件镜像的资源库，帮助用户快速获取所需软件，并提升下载速度。</description>
     </item>
     <item>
       <title>Git 用法全解</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/git-%E7%94%A8%E6%B3%95%E5%85%A8%E8%A7%A3/</guid>
       <description>Git 是一种强大的版本控制工具，广泛应用于软件开发，以高效管理代码和促进团队协作。本文介绍了 Git 的安装、基本配置、仓库管理、常用命令、分支和远程操作等关键功能，并详细说明了如何使用子模块、钩子、查看提交历史以及撤销更改等技巧。掌握这些基本用法将显著提高开发效率，使开发者能够更顺利地进行项目管理和协作开发。</description>
     </item>
     <item>
       <title>Makefile 使用指南</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/makefile-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
       <description>本文介绍了在Linux环境中使用&lt;code&gt;make&lt;/code&gt;和Makefile进行自动化编译的基本概念和操作。通过简单的命令，开发者可以高效地编译和安装软件。Makefile文件指导&lt;code&gt;make&lt;/code&gt;如何根据源文件生成目标文件，并通过定义规则、依赖关系和命令来实现增量编译。文章还讲解了如何安装&lt;code&gt;make&lt;/code&gt;、编写基本规则、使用伪目标、执行多条命令及定义和引用环境变量等技巧，从而提高开发效率，为Linux内核开发打下基础。</description>
     </item>
     <item>
       <title>在 Debian 上安装 OpenMediaVault 的指南</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%9C%A8-debian-%E4%B8%8A%E5%AE%89%E8%A3%85-openmediavault-%E7%9A%84%E6%8C%87%E5%8D%97/</guid>
       <description>本文介绍了如何在 Debian 系统上安装 OpenMediaVault，提供了详细的步骤，包括安装前的准备、安装密钥环、添加包存储库、安装软件包、填充数据库以及重新部署网络配置。完成安装后，用户可以通过 Web 浏览器使用默认凭据访问 OpenMediaVault 界面，快速构建功能强大的网络附加存储（NAS）解决方案。通过简单命令，用户能够轻松实现高效的 NAS 设置。有关更多信息，请参考官方文档。</description>
     </item>
     <item>
       <title>理解 DDPM 和 DDIM</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</link>
       <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/%E7%90%86%E8%A7%A3-ddpm-%E5%92%8C-ddim/</guid>
       <description>扩散模型，特别是 DDPM（Denoising Diffusion Probabilistic Models）和 DDIM（Denoising Diffusion Implicit Models），是一种强大的生成模型，通过逐步添加噪声并学习去噪过程，从真实数据生成新图像或音频。DDPM 依赖于随机的反向去噪过程，而 DDIM 则采用确定性反向过程，提升了生成效率，允许更少的步骤生成高质量图像。这些模型在图像生成领域展现出显著的能力，为创作提供了新的可能性。</description>
     </item>
     <item>
       <title>CLIP：跨模态学习的突破</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/clip%E8%B7%A8%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%AA%81%E7%A0%B4/</guid>
       <description>CLIP（Contrastive Language–Image Pre-training）是由 OpenAI 提出的跨模态学习模型，旨在通过对比学习将图像与其文本描述结合起来，从而使计算机能够理解两者之间的关系。该模型通过数据收集、编码、对比学习等步骤进行训练，展现出多任务能力，能够处理图像分类、文本到图像检索、图像生成等多种视觉任务，且无需针对特定任务重新训练。CLIP 的灵活性和多任务能力为计算机视觉和自然语言处理领域带来了新的可能性，推动了相关研究的发展。</description>
     </item>
     <item>
       <title>Transformer 架构的演变与应用</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/transformer-%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8F%98%E4%B8%8E%E5%BA%94%E7%94%A8/</guid>
       <description>本文探讨了Transformer架构的演变及其在多个领域的重要性。自2017年Vaswani等人提出Transformer以来，自注意力机制成为其核心创新，使模型能灵活捕捉长距离依赖。早期模型如BERT和GPT引领了自然语言处理的发展，Vision Transformer（ViT）将该架构引入计算机视觉领域并显著提升了图像分类性能。Transformer在自然语言处理、计算机视觉和语音识别等应用中表现出色，未来预计将在多模态学习和实时处理等领域继续创新和发展。</description>
     </item>
     <item>
       <title>视觉 Transformer（ViT）的介绍与应用</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/%E8%A7%86%E8%A7%89-transformervit%E7%9A%84%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%BA%94%E7%94%A8/</guid>
       <description>视觉 Transformer（ViT）是 Google Research 提出的新型计算机视觉架构，它通过将图像分割成小的 patch 并利用 Transformer 的自注意力机制来处理图像，捕捉长距离依赖关系。ViT 的主要特点包括 patch 分割、位置编码和在大规模数据集上的预训练与微调，使其在图像分类、目标检测、图像分割和生成任务等多个计算机视觉领域表现出色。ViT 正在逐渐改变计算机视觉的研究和应用，为未来的创新和改进奠定基础。</description>
     </item>
     <item>
       <title>SQL 简明笔记</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/sql-%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0/</guid>
       <description>本文提供了数据库操作的基本SQL语法，包括数据定义、查询、更新和视图的创建。数据定义部分涵盖了模式、表和索引的创建、修改和删除。查询部分详细介绍了&lt;code&gt;SELECT&lt;/code&gt;语句及其聚集函数、连接、&lt;code&gt;ANY&lt;/code&gt;和&lt;code&gt;ALL&lt;/code&gt;谓词、&lt;code&gt;EXISTS&lt;/code&gt;谓词以及集合查询的用法。更新部分包括数据的插入、更新和删除操作。最后，视图的创建和删除也被简要提及，参考文献为王珊和萨师煊的《数据库系统概论》。</description>
     </item>
     <item>
       <title>GTD：一种高效的生活方式</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</guid>
       <description>本文介绍了 GTD（Getting Things Done）个人生产力系统，强调了如何有效管理任务以提升效率。在大学生活中，面对多重任务和繁杂事务，GTD 提供了一种方法，通过将任务分类到不同的分区（如 Inbox、Someday / Maybe、‘Plan Project’ Task 等），并通过五个关键流程（捕获、明晰、组织、回顾和执行）进行管理，使得个体可以将注意力集中在执行任务而非回忆任务上，从而缓解压力并提高生产力。GTD 的核心在于及时记录并组织任务，释放大脑空间，以便专注于更重要的事情。</description>
     </item>
     <item>
       <title>摄影 002 | 那些远去的记忆 | 2022 August 31</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</guid>
       <description>这些黑白影像如同时光的碎片，将过去的点滴重新拼凑成完整的画面。它们承载着被岁月掩盖的故事与情感，让我们得以在静默的瞬间中，重温那些已然远去的旧日时光。无论是田间的稻草人、锈蚀的机器，还是疾驰的列车，这些场景既是回忆的象征，也是时光的见证者。它们提醒我们，尽管岁月无情，那些深藏于心的记忆却依旧温柔如初，等待被唤醒与铭记。</description>
     </item>
     <item>
       <title>摄影 001 | 夏日艳影 | 2022 Augest 28</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</guid>
       <description>在这个阳光普照的夏日，我在城市的街头漫步，感受着生活的热情与宁静。从色彩斑斓的便利店到沉默的商圈，再到童年梦境的娃娃机和壮丽的株洲大桥，每一个瞬间都在我的心中留下了深刻的印记。在湘江的小舟上，我随波逐流，享受着与自然的亲密接触，最终在绿草如茵的天地中体会到生命的生机与活力。这一切构成了一场如梦般的旅程，让我反思生活的意义，珍惜每一个美好的瞬间，期待未来更多的感动与发现。</description>
     </item>
     <item>
       <title>扩展存储解决方案</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
       <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
       <description>最近，我因为移动硬盘存储空间告急，决定购买一块新的机械硬盘进行数据存储与备份。在考虑了读写速度、便携性和价格后，我最终选择了一款西部数据的 WD40PURX 4TB 紫盘，这款硬盘适合长时间稳定工作，且价格相对实惠。为了配合这块硬盘，我购买了绿联的硬盘盒，尽管对其供电规格有些担忧。开箱后，硬盘的安装过程顺利，速度测试显示其性能超出预期，实际拷贝速度也令人满意。</description>
     </item>
     <item>
       <title>追逐只属于日落的惬意「May, 2022」</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</link>
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</guid>
       <description>在这个月中，我感受到了一种难以言表的疲倦，陷入了对未来方向的迷茫与纠结，尤其是在选择专业方面的反复思考。不过，经过与父母的沟通，我意识到持续的纠结不会带来任何实质性进展，反而应该积极面对现状。在忙碌的生活中，我也找到了快乐，参与了五四青年节的活动，包括射箭和卡丁车，体验了驾驶的乐趣，还去了蹦床馆感受纯粹的快乐。此外，我还参加了亚太地区数学建模创新奖的答辩，并获得了创新奖，这让我倍感欣喜。</description>
     </item>
     <item>
       <title>MacBook 开启 Windows To Go！</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
       <description>本文介绍了如何使用非官方推荐的 Aigo 256GB 固态 U 盘为 MacBook 制作 Windows To Go。首先，通过萝卜头 WTG 辅助工具选择操作系统镜像和目标磁盘，点击“部署”开始写入，整个过程大约耗时 7 分钟。完成后，将 U 盘插入 MacBook，长按 Option 键即可选择 Windows 启动。文中还提到了磁盘速度测试结果，展示了该 U 盘的性能表现。</description>
     </item>
     <item>
       <title>来听听迷幻爵士乐</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</guid>
       <description>这篇文章介绍了迷幻爵士乐（酸性爵士）的音乐风格，强调了其源于20世纪60年代英国的特点。作者回忆了自己第一次接触迷幻爵士的经历，特别提到周杰伦的《印第安老斑鸠》和《比较大的大提琴》，以及英国爵士说唱团体Us3的《Cantaloop (Flip Fantasia)》和乐队Jamiroquai的《Too Young to Die》。文章探讨了这种风格如何融合了爵士、嘻哈等元素，展示了迷幻爵士乐的多样性与魅力，并鼓励读者进一步探索相关音乐作品。</description>
     </item>
     <item>
       <title>不一样的黄绮珊《小霞 2.0》</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</guid>
       <description>《小霞 2.0》是黄绮珊于2021年发行的第六张专辑，以中年女性的爱情故事为主题，分为三个部分，每部分以阿卡贝拉形式的《另外三件往事》开场。专辑中包含13首歌曲，展现了小霞从怀念往昔到面对现实的情感变化，涵盖了对爱情的渴望、自嘲与释然等多重情绪。通过与制作人秦四风的默契合作，专辑在旋律和编曲上表现出色，呈现了一幅成熟而细腻的爱情画卷。</description>
     </item>
     <item>
       <title>徘徊在忙碌与散漫之间「March, 2022」</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</guid>
       <description>在三月份的学习和生活中，我体验到了复习考研的高强度与内心的挣扎，特别是在数学的复习上，虽然一开始充满激情，但也逐渐意识到盲目冲刺的局限性。通过观看武忠祥老师的课程，我找到了更有效的学习方法，同时在英语学习上，通过使用「不背单词」和「轻听英语」等工具提升了词汇和阅读能力。生活中，我也体验到了音乐和电影带来的乐趣，尽管运动计划未能如愿坚持，但整体心态积极，期待在接下来的日子里不断改进与前行。</description>
     </item>
     <item>
       <title>一篇文章搞定 macOS 截图</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</guid>
       <description>本文详细介绍了macOS系统中的截图功能，包括使用快捷键进行全屏和部分截图、截取窗口以及如何使用自带的“截屏”应用和第三方工具iShot进行长截图和动图录制。通过快捷键如&lt;strong&gt;Command + Shift + 3/4&lt;/strong&gt;和&lt;strong&gt;Command + Shift + 5&lt;/strong&gt;，用户可以方便地进行各种截图操作，而iShot则提供了更强大的长截图和动图制作功能。掌握这些截图技巧能显著提升工作和学习的效率。</description>
     </item>
     <item>
       <title>与 Apple Music 一同优雅地享受音乐</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</guid>
       <description>在当前的音乐流媒体时代，各大平台因版权问题常常让用户需要同时使用多个软件，造成听歌体验的碎片化。相比之下，Apple Music凭借其优雅简洁的界面和强大的音乐库管理功能，提供了一个集中听歌的理想选择。通过建立云端音乐资料库，用户可以轻松添加和整理音乐，创建智能播放列表，摆脱广告和不必要的推送，从而重新享受音乐的纯粹乐趣。最终，这种专注于音乐本身的体验不仅增进了用户对音乐的理解，也让音乐成为一份珍贵的记忆。</description>
     </item>
     <item>
       <title>将 Hexo 博客部署到云服务器</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/%E5%B0%86-hexo-%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
       <description>本文提供了详细的步骤指南，教您如何配置腾讯云轻量云服务器，以搭建个人博客。教程首先介绍了如何通过 SSH 连接和设置服务器，包括编辑 SSH 配置文件、添加用户并赋予管理员权限。接着，读者将学习如何安装 Git 并创建一个 Git 仓库，用于版本控制和代码管理。随后，文章指导用户安装 Apache2 服务器程序，并配置 Git 钩子，以便在代码推送时自动更新网站内容。最后，读者将配置 Hexo 博客并进行部署，使其能够在新搭建的服务器上运行。通过这些步骤，您可以轻松搭建一个高效的博客平台。</description>
     </item>
     <item>
       <title>动态规划：背包问题</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
       <description>背包问题是一种经典的动态规划问题，旨在在给定容量的情况下最大化物品的总价值。以“骨头收藏家”为例，每块骨头具有特定的体积和价值，骨头收藏家需要选择哪些骨头以获得最大的总价值。通过定义递推关系和状态转移方程，我们可以使用递归或动态规划数组来解决这个问题。分为“01背包问题”和“完全背包问题”，前者限制每种物品的数量，后者允许任意数量的物品选择。通过有效地管理和优化状态转移，能够在合理的时间复杂度内计算出最优解。</description>
     </item>
     <item>
       <title>关于</title>
-      <link>https://neuropix.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/about/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://neuropix.github.io/about/logo.jpg&#34; height=&#34;200&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;欢迎来到 &lt;strong&gt;NeuroPix&lt;/strong&gt;！🌟 在这里，我们将共同探索人工智能的无限可能性。这个博客不仅是我个人的学习笔记，更是一个分享与交流的社区。无论你是科技领域的专家，还是刚刚踏入这一领域的新手，这里都能为你提供丰富的知识与灵感。&lt;/p&gt;&#xA;&lt;p&gt;我坚信，技术不仅是工具，它是解决问题的钥匙🔑，也是构建未来的桥梁🌉。通过 &lt;strong&gt;NeuroPix&lt;/strong&gt;，我希望与大家分享我的思考、经验，以及对这个快速发展的世界的独特见解。&lt;/p&gt;&#xA;&lt;p&gt;让我们在人工智能的旅程中携手发现、学习与成长吧！🚀✨&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;：NeuroPix 的 logo 由字节跳动的豆包大模型生成。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://neuropix.github.io/update&#34;&gt;NeuroPix 更新日志&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://neuropix.github.io/help&#34;&gt;帮助&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/about/logo.jpg&#34; height=&#34;200&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;欢迎来到 &lt;strong&gt;NeuroPix&lt;/strong&gt;！🌟 在这里，我们将共同探索人工智能的无限可能性。这个博客不仅是我个人的学习笔记，更是一个分享与交流的社区。无论你是科技领域的专家，还是刚刚踏入这一领域的新手，这里都能为你提供丰富的知识与灵感。&lt;/p&gt;&#xA;&lt;p&gt;我坚信，技术不仅是工具，它是解决问题的钥匙🔑，也是构建未来的桥梁🌉。通过 &lt;strong&gt;NeuroPix&lt;/strong&gt;，我希望与大家分享我的思考、经验，以及对这个快速发展的世界的独特见解。&lt;/p&gt;&#xA;&lt;p&gt;让我们在人工智能的旅程中携手发现、学习与成长吧！🚀✨&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;：NeuroPix 的 logo 由字节跳动的豆包大模型生成。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/update&#34;&gt;NeuroPix 更新日志&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/help&#34;&gt;帮助&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于/帮助</title>
-      <link>https://neuropix.github.io/help/</link>
+      <link>http://localhost:1313/help/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/help/</guid>
+      <guid>http://localhost:1313/help/</guid>
       <description>&lt;p&gt;NeuroPix 是一个基于 Hugo 的静态博客项目，旨在提供一个简洁而优雅的平台，用于分享个人见解和创作✨。通过内置的 Makefile，用户可以轻松管理博客的生成、部署和文章创作📜，支持一键清理、生成静态文件以及将内容部署到 GitHub Pages🚀。此外，NeuroPix 允许用户快速创建新文章，并在本地服务器上实时预览更改，为写作提供了极大的便利与灵活性🔍。欢迎访问 NeuroPix，探索更多精彩内容！🌈&lt;/p&gt;&#xA;&lt;h2 id=&#34;如何编辑&#34;&gt;如何编辑&lt;/h2&gt;&#xA;&lt;p&gt;要编辑该博客，请首先运行以下命令克隆项目：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone --recurse-submodules https://github.com/NeuroPix/NeuroPix&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;：NeuroPix 并非开源项目！它是基于 Hugo 和 Typo 主题构建的。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;然后，按照项目地址的 &lt;a href=&#34;https://github.com/NeuroPix/NeuroPix&#34;&gt;README&lt;/a&gt; 文件进行编辑。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于/更新日志</title>
-      <link>https://neuropix.github.io/update/</link>
+      <link>http://localhost:1313/update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/update/</guid>
+      <guid>http://localhost:1313/update/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;27 Sep 2024&lt;/strong&gt; 🆕&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;更名为「NeuroPix」，并成功部署在 GitHub Pages 上 🎉。&lt;/li&gt;&#xA;&lt;li&gt;网址更改为 &lt;a href=&#34;https://neuropix.github.io&#34;&gt;neuropix.github.io&lt;/a&gt; 🌐。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;02 Aug 2022&lt;/strong&gt; ✨&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;借助 Shapebox 主题重新设计了网站 🎨。&lt;/li&gt;&#xA;&lt;li&gt;增加了「不妥协」音乐播客频道，并更新了第一期节目：「不妥协 001 | 第一次电台尝试 | 2022年8月1日」🎙️。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;15 Jun 2022&lt;/strong&gt; 📹&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;新增「VLOG」板块，采用视频日志的形式记录日常生活 🎥。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;30 Jan 2022&lt;/strong&gt; 🔄&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;使用 WordPress 重新设计了网站 🖥️。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;25 Apr 2021&lt;/strong&gt; 📦&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;将「WildPtr 野指针」迁移至 Notion 平台 📚。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;20 Jan 2021&lt;/strong&gt; 🚀&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;「WildPtr 野指针」正式成立 🎊。&lt;/li&gt;&#xA;&lt;li&gt;首页增加了模糊效果 🌫️。&lt;/li&gt;&#xA;&lt;li&gt;文章增加了评论系统 💬。&lt;/li&gt;&#xA;&lt;li&gt;为网站申请了域名 &lt;a href=&#34;https://wildptr.cn&#34;&gt;wildptr.cn&lt;/a&gt; 🌍。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>分类</title>
-      <link>https://neuropix.github.io/categories/</link>
+      <link>http://localhost:1313/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/categories/</guid>
-      <description>&lt;p&gt;NeuroPix 共有 25 篇文章。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF&#34;&gt;技术&lt;/a&gt;&lt;/strong&gt; (8)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7&#34;&gt;工具&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6&#34;&gt;开源软件&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80&#34;&gt;语言&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB&#34;&gt;生活&lt;/a&gt;&lt;/strong&gt; (11)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1&#34;&gt;摄影&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87&#34;&gt;效率&lt;/a&gt; (1)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81&#34;&gt;数码&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0&#34;&gt;日记&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90&#34;&gt;音乐&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94&#34;&gt;科研&lt;/a&gt;&lt;/strong&gt; (6)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96&#34;&gt;其他&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3&#34;&gt;理解&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://neuropix.github.io/categories/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90&#34;&gt;生成&lt;/a&gt; (1)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/categories/</guid>
+      <description>&lt;p&gt;NeuroPix 共有 25 篇文章。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/categories/%E6%8A%80%E6%9C%AF&#34;&gt;技术&lt;/a&gt;&lt;/strong&gt; (8)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7&#34;&gt;工具&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6&#34;&gt;开源软件&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80&#34;&gt;语言&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%94%9F%E6%B4%BB&#34;&gt;生活&lt;/a&gt;&lt;/strong&gt; (11)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1&#34;&gt;摄影&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87&#34;&gt;效率&lt;/a&gt; (1)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81&#34;&gt;数码&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0&#34;&gt;日记&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90&#34;&gt;音乐&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%A7%91%E7%A0%94&#34;&gt;科研&lt;/a&gt;&lt;/strong&gt; (6)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96&#34;&gt;其他&lt;/a&gt; (2)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3&#34;&gt;理解&lt;/a&gt; (3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/categories/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90&#34;&gt;生成&lt;/a&gt; (1)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>分类：技术</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/_%E5%88%86%E7%B1%BB%E6%8A%80%E6%9C%AF/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/_%E5%88%86%E7%B1%BB%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/_%E5%88%86%E7%B1%BB%E6%8A%80%E6%9C%AF/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/_%E5%88%86%E7%B1%BB%E6%8A%80%E6%9C%AF/</guid>
       <description>该分类下共有 8 篇文章。</description>
     </item>
     <item>
       <title>分类：技术/工具</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/_%E5%88%86%E7%B1%BB%E5%B7%A5%E5%85%B7/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/_%E5%88%86%E7%B1%BB%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/_%E5%88%86%E7%B1%BB%E5%B7%A5%E5%85%B7/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/_%E5%88%86%E7%B1%BB%E5%B7%A5%E5%85%B7/</guid>
       <description>该分类下共有 3 篇文章。</description>
     </item>
     <item>
       <title>分类：技术/开源软件</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/_%E5%88%86%E7%B1%BB%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/_%E5%88%86%E7%B1%BB%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/_%E5%88%86%E7%B1%BB%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/_%E5%88%86%E7%B1%BB%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</guid>
       <description>该分类下共有 3 篇文章。</description>
     </item>
     <item>
       <title>分类：技术/语言</title>
-      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/_%E5%88%86%E7%B1%BB%E8%AF%AD%E8%A8%80/</link>
+      <link>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/_%E5%88%86%E7%B1%BB%E8%AF%AD%E8%A8%80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/_%E5%88%86%E7%B1%BB%E8%AF%AD%E8%A8%80/</guid>
+      <guid>http://localhost:1313/posts/%E6%8A%80%E6%9C%AF/%E8%AF%AD%E8%A8%80/_%E5%88%86%E7%B1%BB%E8%AF%AD%E8%A8%80/</guid>
       <description>该分类下共有 2 篇文章。</description>
     </item>
     <item>
       <title>分类：生活</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</guid>
       <description>该分类下共有 11 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/摄影</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</guid>
       <description>该分类下共有 2 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/效率</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</guid>
       <description>该分类下共有 1 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/数码</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</guid>
       <description>该分类下共有 3 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/日记</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</guid>
       <description>该分类下共有 2 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/音乐</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</guid>
       <description>该分类下共有 3 篇文章。</description>
     </item>
     <item>
       <title>分类：科研</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/_%E5%88%86%E7%B1%BB%E7%A7%91%E7%A0%94/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/_%E5%88%86%E7%B1%BB%E7%A7%91%E7%A0%94/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/_%E5%88%86%E7%B1%BB%E7%A7%91%E7%A0%94/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/_%E5%88%86%E7%B1%BB%E7%A7%91%E7%A0%94/</guid>
       <description>该分类下共有 6 篇文章。</description>
     </item>
     <item>
       <title>分类：科研/其他</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/_%E5%88%86%E7%B1%BB%E5%85%B6%E4%BB%96/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/_%E5%88%86%E7%B1%BB%E5%85%B6%E4%BB%96/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/_%E5%88%86%E7%B1%BB%E5%85%B6%E4%BB%96/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/_%E5%88%86%E7%B1%BB%E5%85%B6%E4%BB%96/</guid>
       <description>该分类下共有 2 篇文章。</description>
     </item>
     <item>
       <title>分类：科研/理解</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/_%E5%88%86%E7%B1%BB%E7%90%86%E8%A7%A3/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/_%E5%88%86%E7%B1%BB%E7%90%86%E8%A7%A3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/_%E5%88%86%E7%B1%BB%E7%90%86%E8%A7%A3/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%90%86%E8%A7%A3/_%E5%88%86%E7%B1%BB%E7%90%86%E8%A7%A3/</guid>
       <description>该分类下共有 3 篇文章。</description>
     </item>
     <item>
       <title>分类：科研/生成</title>
-      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</link>
+      <link>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</guid>
+      <guid>http://localhost:1313/posts/%E7%A7%91%E7%A0%94/%E7%94%9F%E6%88%90/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%88%90/</guid>
       <description>该分类下共有 1 篇文章。</description>
     </item>
   </channel>

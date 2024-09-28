@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on NeuroPix</title>
-    <link>https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+    <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://neuropix.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GTD：一种高效的生活方式</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/gtd%E4%B8%80%E7%A7%8D%E9%AB%98%E6%95%88%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</guid>
       <description>本文介绍了 GTD（Getting Things Done）个人生产力系统，强调了如何有效管理任务以提升效率。在大学生活中，面对多重任务和繁杂事务，GTD 提供了一种方法，通过将任务分类到不同的分区（如 Inbox、Someday / Maybe、‘Plan Project’ Task 等），并通过五个关键流程（捕获、明晰、组织、回顾和执行）进行管理，使得个体可以将注意力集中在执行任务而非回忆任务上，从而缓解压力并提高生产力。GTD 的核心在于及时记录并组织任务，释放大脑空间，以便专注于更重要的事情。</description>
     </item>
     <item>
       <title>摄影 002 | 那些远去的记忆 | 2022 August 31</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-002--%E9%82%A3%E4%BA%9B%E8%BF%9C%E5%8E%BB%E7%9A%84%E8%AE%B0%E5%BF%86--2022-augest-31/</guid>
       <description>这些黑白影像如同时光的碎片，将过去的点滴重新拼凑成完整的画面。它们承载着被岁月掩盖的故事与情感，让我们得以在静默的瞬间中，重温那些已然远去的旧日时光。无论是田间的稻草人、锈蚀的机器，还是疾驰的列车，这些场景既是回忆的象征，也是时光的见证者。它们提醒我们，尽管岁月无情，那些深藏于心的记忆却依旧温柔如初，等待被唤醒与铭记。</description>
     </item>
     <item>
       <title>摄影 001 | 夏日艳影 | 2022 Augest 28</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/%E6%91%84%E5%BD%B1-001--%E5%A4%8F%E6%97%A5%E8%89%B3%E5%BD%B1--2022-augest-28/</guid>
       <description>在这个阳光普照的夏日，我在城市的街头漫步，感受着生活的热情与宁静。从色彩斑斓的便利店到沉默的商圈，再到童年梦境的娃娃机和壮丽的株洲大桥，每一个瞬间都在我的心中留下了深刻的印记。在湘江的小舟上，我随波逐流，享受着与自然的亲密接触，最终在绿草如茵的天地中体会到生命的生机与活力。这一切构成了一场如梦般的旅程，让我反思生活的意义，珍惜每一个美好的瞬间，期待未来更多的感动与发现。</description>
     </item>
     <item>
       <title>扩展存储解决方案</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
       <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E6%89%A9%E5%B1%95%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
       <description>最近，我因为移动硬盘存储空间告急，决定购买一块新的机械硬盘进行数据存储与备份。在考虑了读写速度、便携性和价格后，我最终选择了一款西部数据的 WD40PURX 4TB 紫盘，这款硬盘适合长时间稳定工作，且价格相对实惠。为了配合这块硬盘，我购买了绿联的硬盘盒，尽管对其供电规格有些担忧。开箱后，硬盘的安装过程顺利，速度测试显示其性能超出预期，实际拷贝速度也令人满意。</description>
     </item>
     <item>
       <title>追逐只属于日落的惬意「May, 2022」</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</link>
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E8%BF%BD%E9%80%90%E5%8F%AA%E5%B1%9E%E4%BA%8E%E6%97%A5%E8%90%BD%E7%9A%84%E6%83%AC%E6%84%8Fmay-2022/</guid>
       <description>在这个月中，我感受到了一种难以言表的疲倦，陷入了对未来方向的迷茫与纠结，尤其是在选择专业方面的反复思考。不过，经过与父母的沟通，我意识到持续的纠结不会带来任何实质性进展，反而应该积极面对现状。在忙碌的生活中，我也找到了快乐，参与了五四青年节的活动，包括射箭和卡丁车，体验了驾驶的乐趣，还去了蹦床馆感受纯粹的快乐。此外，我还参加了亚太地区数学建模创新奖的答辩，并获得了创新奖，这让我倍感欣喜。</description>
     </item>
     <item>
       <title>MacBook 开启 Windows To Go！</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/macbook-%E5%BC%80%E5%90%AF-windows-to-go/</guid>
       <description>本文介绍了如何使用非官方推荐的 Aigo 256GB 固态 U 盘为 MacBook 制作 Windows To Go。首先，通过萝卜头 WTG 辅助工具选择操作系统镜像和目标磁盘，点击“部署”开始写入，整个过程大约耗时 7 分钟。完成后，将 U 盘插入 MacBook，长按 Option 键即可选择 Windows 启动。文中还提到了磁盘速度测试结果，展示了该 U 盘的性能表现。</description>
     </item>
     <item>
       <title>来听听迷幻爵士乐</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E6%9D%A5%E5%90%AC%E5%90%AC%E8%BF%B7%E5%B9%BB%E7%88%B5%E5%A3%AB%E4%B9%90/</guid>
       <description>这篇文章介绍了迷幻爵士乐（酸性爵士）的音乐风格，强调了其源于20世纪60年代英国的特点。作者回忆了自己第一次接触迷幻爵士的经历，特别提到周杰伦的《印第安老斑鸠》和《比较大的大提琴》，以及英国爵士说唱团体Us3的《Cantaloop (Flip Fantasia)》和乐队Jamiroquai的《Too Young to Die》。文章探讨了这种风格如何融合了爵士、嘻哈等元素，展示了迷幻爵士乐的多样性与魅力，并鼓励读者进一步探索相关音乐作品。</description>
     </item>
     <item>
       <title>不一样的黄绮珊《小霞 2.0》</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E9%BB%84%E7%BB%AE%E7%8F%8A%E5%B0%8F%E9%9C%9E-2.0/</guid>
       <description>《小霞 2.0》是黄绮珊于2021年发行的第六张专辑，以中年女性的爱情故事为主题，分为三个部分，每部分以阿卡贝拉形式的《另外三件往事》开场。专辑中包含13首歌曲，展现了小霞从怀念往昔到面对现实的情感变化，涵盖了对爱情的渴望、自嘲与释然等多重情绪。通过与制作人秦四风的默契合作，专辑在旋律和编曲上表现出色，呈现了一幅成熟而细腻的爱情画卷。</description>
     </item>
     <item>
       <title>徘徊在忙碌与散漫之间「March, 2022」</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/%E5%BE%98%E5%BE%8A%E5%9C%A8%E5%BF%99%E7%A2%8C%E4%B8%8E%E6%95%A3%E6%BC%AB%E4%B9%8B%E9%97%B4march-2022/</guid>
       <description>在三月份的学习和生活中，我体验到了复习考研的高强度与内心的挣扎，特别是在数学的复习上，虽然一开始充满激情，但也逐渐意识到盲目冲刺的局限性。通过观看武忠祥老师的课程，我找到了更有效的学习方法，同时在英语学习上，通过使用「不背单词」和「轻听英语」等工具提升了词汇和阅读能力。生活中，我也体验到了音乐和电影带来的乐趣，尽管运动计划未能如愿坚持，但整体心态积极，期待在接下来的日子里不断改进与前行。</description>
     </item>
     <item>
       <title>一篇文章搞定 macOS 截图</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%90%9E%E5%AE%9A-macos-%E6%88%AA%E5%9B%BE/</guid>
       <description>本文详细介绍了macOS系统中的截图功能，包括使用快捷键进行全屏和部分截图、截取窗口以及如何使用自带的“截屏”应用和第三方工具iShot进行长截图和动图录制。通过快捷键如&lt;strong&gt;Command + Shift + 3/4&lt;/strong&gt;和&lt;strong&gt;Command + Shift + 5&lt;/strong&gt;，用户可以方便地进行各种截图操作，而iShot则提供了更强大的长截图和动图制作功能。掌握这些截图技巧能显著提升工作和学习的效率。</description>
     </item>
     <item>
       <title>与 Apple Music 一同优雅地享受音乐</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/%E4%B8%8E-apple-music-%E4%B8%80%E5%90%8C%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BA%AB%E5%8F%97%E9%9F%B3%E4%B9%90/</guid>
       <description>在当前的音乐流媒体时代，各大平台因版权问题常常让用户需要同时使用多个软件，造成听歌体验的碎片化。相比之下，Apple Music凭借其优雅简洁的界面和强大的音乐库管理功能，提供了一个集中听歌的理想选择。通过建立云端音乐资料库，用户可以轻松添加和整理音乐，创建智能播放列表，摆脱广告和不必要的推送，从而重新享受音乐的纯粹乐趣。最终，这种专注于音乐本身的体验不仅增进了用户对音乐的理解，也让音乐成为一份珍贵的记忆。</description>
     </item>
     <item>
       <title>分类：生活</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/_%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</guid>
       <description>该分类下共有 11 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/摄影</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%91%84%E5%BD%B1/_%E5%88%86%E7%B1%BB%E6%91%84%E5%BD%B1/</guid>
       <description>该分类下共有 2 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/效率</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%88%E7%8E%87/_%E5%88%86%E7%B1%BB%E6%95%88%E7%8E%87/</guid>
       <description>该分类下共有 1 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/数码</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/_%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</guid>
       <description>该分类下共有 3 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/日记</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/_%E5%88%86%E7%B1%BB%E6%97%A5%E8%AE%B0/</guid>
       <description>该分类下共有 2 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/音乐</title>
-      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</link>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</guid>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/_%E5%88%86%E7%B1%BB%E9%9F%B3%E4%B9%90/</guid>
       <description>该分类下共有 3 篇文章。</description>
     </item>
   </channel>
