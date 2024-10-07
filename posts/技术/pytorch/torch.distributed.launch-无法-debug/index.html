@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://neuropix.github.io//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://neuropix.github.io//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://neuropix.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://neuropix.github.io//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://neuropix.github.io//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    torch.distributed.launch 无法 debug | NeuroPix
+    
+</title>
+
+<link rel="canonical" href="https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/pytorch/torch.distributed.launch-%E6%97%A0%E6%B3%95-debug/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6824bbee0d90d5af09fed9b70395ce7076b615e315037455d903314e96ef91b.css" media="all">
+
+
+
+
+
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header" style="position: relative;">
+
+    
+
+    
+    <h1 class="header-title">NeuroPix</h1>
+
+    <div class="flex">
+         
+
+         
+         
+            <div class="menu-item" style="position: relative; width: 100px;">  
+                <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                    <a href="/" >
+                        首页
+                    </a>
+                </p>
+
+                 
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 68%; background: var(--background); color: var(--content-primary); 
+                z-index: 1000; width: 100%; 
+                /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+                "> 
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories"  style="color: var(--content-primary);"> 
+                            /分类
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+         
+            <div class="menu-item" style="position: relative; width: 100px;">  
+                <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                    <a href="/categories/%e6%8a%80%e6%9c%af" >
+                        技术
+                    </a>
+                </p>
+
+                 
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 68%; background: var(--background); color: var(--content-primary); 
+                z-index: 1000; width: 100%; 
+                /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+                "> 
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e6%8a%80%e6%9c%af/%e8%af%ad%e8%a8%80"  style="color: var(--content-primary);"> 
+                            /语言
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e6%8a%80%e6%9c%af/%e5%b7%a5%e5%85%b7"  style="color: var(--content-primary);"> 
+                            /工具
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e6%8a%80%e6%9c%af/PyTorch"  style="color: var(--content-primary);"> 
+                            /PyTorch
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e6%8a%80%e6%9c%af/%e5%bc%80%e6%ba%90%e8%bd%af%e4%bb%b6"  style="color: var(--content-primary);"> 
+                            /开源软件
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+         
+            <div class="menu-item" style="position: relative; width: 100px;">  
+                <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                    <a href="/categories/%e7%a7%91%e7%a0%94" >
+                        科研
+                    </a>
+                </p>
+
+                 
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 68%; background: var(--background); color: var(--content-primary); 
+                z-index: 1000; width: 100%; 
+                /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+                "> 
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e5%85%b6%e4%bb%96"  style="color: var(--content-primary);"> 
+                            /其他
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e7%94%9f%e6%88%90%e5%bc%8f"  style="color: var(--content-primary);"> 
+                            /生成式
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e5%9f%ba%e7%a1%80%e6%a8%a1%e5%9e%8b"  style="color: var(--content-primary);"> 
+                            /基础模型
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%a7%91%e7%a0%94/%e8%a7%86%e8%a7%89%e7%90%86%e8%a7%a3"  style="color: var(--content-primary);"> 
+                            /视觉理解
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+         
+            <div class="menu-item" style="position: relative; width: 100px;">  
+                <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                    <a href="/categories/%e7%94%9f%e6%b4%bb" >
+                        生活
+                    </a>
+                </p>
+
+                 
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 68%; background: var(--background); color: var(--content-primary); 
+                z-index: 1000; width: 100%; 
+                /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+                "> 
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%94%9f%e6%b4%bb/%e6%97%a5%e8%ae%b0"  style="color: var(--content-primary);"> 
+                            /日记
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%94%9f%e6%b4%bb/%e6%91%84%e5%bd%b1"  style="color: var(--content-primary);"> 
+                            /摄影
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%94%9f%e6%b4%bb/%e6%95%88%e7%8e%87"  style="color: var(--content-primary);"> 
+                            /效率
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%94%9f%e6%b4%bb/%e5%bf%83%e7%90%86"  style="color: var(--content-primary);"> 
+                            /心理
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%94%9f%e6%b4%bb/%e9%9f%b3%e4%b9%90"  style="color: var(--content-primary);"> 
+                            /音乐
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/categories/%e7%94%9f%e6%b4%bb/%e6%95%b0%e7%a0%81"  style="color: var(--content-primary);"> 
+                            /数码
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+         
+            <div class="menu-item" style="position: relative; width: 100px;">  
+                <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                    <a href="/about" >
+                        关于
+                    </a>
+                </p>
+
+                 
+                <div class="submenu" style="display: none; position: absolute; left: 0; top: 68%; background: var(--background); color: var(--content-primary); 
+                z-index: 1000; width: 100%; 
+                /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+                "> 
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/update"  style="color: var(--content-primary);"> 
+                            /更新日志
+                        </a>
+                    </p>
+                     
+                    <p class="small " style="margin-left: 10px; margin-right: 10px;">
+                        - <a href="/help"  style="color: var(--content-primary);"> 
+                            /帮助
+                        </a>
+                    </p>
+                    
+                </div>
+                
+            </div>
+        
+        
+    </div>
+
+    
+
+</div>
+
+<script>
+    
+    document.querySelectorAll('.menu-item').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            const submenu = item.querySelector('.submenu'); 
+            if (submenu) submenu.style.display = 'block'; 
+        });
+        item.addEventListener('mouseleave', () => {
+            const submenu = item.querySelector('.submenu'); 
+            if (submenu) submenu.style.display = 'none'; 
+        });
+    });
+</script>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">torch.distributed.launch 无法 debug</h1>
+    
+    <p class="single-summary">讨论了 PyTorch 分布式训练的环境配置及常见错误的解决方案。</p>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2024-10-07T00:00:00&#43;00:00">October 7, 2024</time>
+      
+
+      
+      &nbsp; · &nbsp;
+      1 min read
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+  <aside class="toc">
+    <p><strong>Table of contents</strong></p>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#环境配置">环境配置</a></li>
+    <li><a href="#常见错误">常见错误</a></li>
+    <li><a href="#解决方案">解决方案</a></li>
+    <li><a href="#结论">结论</a></li>
+  </ul>
+</nav>
+  </aside>
+  
+
+  
+
+  <div class="single-content">
+    <p>在使用 PyTorch 的分布式训练时，正确配置环境参数至关重要。以下是一个典型的配置示例及其可能遇到的错误。</p>
+<h2 id="环境配置">环境配置</h2>
+<p>在进行分布式训练时，通常需要在启动脚本中设置 Python 的命令行参数。以下是一个示例配置：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#666;font-style:italic">&#34;pythonArgs&#34;</span><span style="">:</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-style:italic">&#34;-m&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-style:italic">&#34;torch.distributed.launch&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-style:italic">&#34;--nproc_per_node=1&#34;</span>
+</span></span><span style="display:flex;"><span>]<span style="">,</span>
+</span></span></code></pre></div><h2 id="常见错误">常见错误</h2>
+<p>在配置完成后，执行脚本时可能会遇到以下错误：</p>
+<pre tabindex="0"><code>Usage: debugpy --listen | --connect
+               [&lt;host&gt;:]&lt;port&gt;
+               [--wait-for-client]
+               [--configure-&lt;name&gt; &lt;value&gt;]...
+               [--log-to &lt;path&gt;] [--log-to-stderr]
+               &lt;filename&gt; | -m &lt;module&gt; | -c &lt;code&gt; | --pid &lt;pid&gt;
+               [&lt;arg&gt;]...
+
+Error: unrecognized switch --local_rank=0
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 2751) of binary: /home/sse2020/miniconda3/envs/LayoutDiffusion/bin/python
+</code></pre><p>该错误提示表明系统无法识别 <code>--local_rank=0</code> 这个参数，通常是由于使用了不再推荐的 <code>torch.distributed.launch</code> 模块引起的。</p>
+<h2 id="解决方案">解决方案</h2>
+<p>为了避免此错误，我们可以将 <code>torch.distributed.launch</code> 替换为新的分布式启动命令：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#666;font-style:italic">&#34;pythonArgs&#34;</span><span style="">:</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-style:italic">&#34;-m&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-style:italic">&#34;torch.distributed.run&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#666;font-style:italic">&#34;--nproc_per_node=1&#34;</span>
+</span></span><span style="display:flex;"><span>]<span style="">,</span>
+</span></span></code></pre></div><p>更改后的命令能够更好地支持分布式训练，并解决了 <code>--local_rank</code> 参数无法识别的问题。</p>
+<h2 id="结论">结论</h2>
+<p>在配置分布式训练环境时，务必要使用最新的命令和参数设置。确保使用 <code>torch.distributed.run</code> 来避免不必要的错误，从而使训练过程更加顺利。</p>
+
+    
+    <script src="https://giscus.app/client.js"
+        data-repo="NeuroPix/neuropix.github.io"
+        data-repo-id="R_kgDOM3j-IA"
+        data-category=""
+        data-category-id="DIC_kwDOM3j-IM4Ci1RI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/%E7%94%9F%E6%B4%BB/%E5%BF%83%E7%90%86/%E6%88%91%E7%9A%84-mbti-%E8%AE%B0%E5%BD%95/">
+                        我的 MBTI 记录
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/intel-macbook-%E5%85%BB%E8%80%81%E7%B3%BB%E7%BB%9F%E6%8E%A8%E8%8D%90/">
+                        Intel MacBook 养老系统推荐
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    
+    
+    <p>© 2024 NeuroPix. All rights reserved.</p>
+    
+
+
+
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ]
+    });
+  });
+</script>
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>

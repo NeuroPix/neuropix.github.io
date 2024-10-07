@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyTorch on NeuroPix</title>
+    <link>https://neuropix.github.io/tags/pytorch/</link>
+    <description>Recent content in PyTorch on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>torch.distributed.launch 无法 debug</title>
+      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/pytorch/torch.distributed.launch-%E6%97%A0%E6%B3%95-debug/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/pytorch/torch.distributed.launch-%E6%97%A0%E6%B3%95-debug/</guid>
+      <description>讨论了 PyTorch 分布式训练的环境配置及常见错误的解决方案。</description>
+    </item>
+  </channel>
+</rss>

@@ -23,6 +23,13 @@
       <description>本文推荐适合 Intel MacBook 的养老系统，并探讨使用过程中的一些软件兼容性问题。</description>
     </item>
     <item>
+      <title>torch.distributed.launch 无法 debug</title>
+      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/pytorch/torch.distributed.launch-%E6%97%A0%E6%B3%95-debug/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/pytorch/torch.distributed.launch-%E6%97%A0%E6%B3%95-debug/</guid>
+      <description>讨论了 PyTorch 分布式训练的环境配置及常见错误的解决方案。</description>
+    </item>
+    <item>
       <title>我的 MBTI 记录</title>
       <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E5%BF%83%E7%90%86/%E6%88%91%E7%9A%84-mbti-%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
@@ -237,14 +244,21 @@
       <link>https://neuropix.github.io/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/categories/</guid>
-      <description>该分类下共有 29 篇文章。</description>
+      <description>该分类下共有 30 篇文章。</description>
     </item>
     <item>
       <title>分类：技术</title>
       <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%88%86%E7%B1%BB%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%88%86%E7%B1%BB%E6%8A%80%E6%9C%AF/</guid>
-      <description>该分类下共有 8 篇文章。</description>
+      <description>该分类下共有 9 篇文章。</description>
+    </item>
+    <item>
+      <title>分类：技术/PyTorch</title>
+      <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/pytorch/%E5%88%86%E7%B1%BBpytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/pytorch/%E5%88%86%E7%B1%BBpytorch/</guid>
+      <description>该分类下共有 1 篇文章。</description>
     </item>
     <item>
       <title>分类：技术/工具</title>
