@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://neuropix.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cross Attention 和微调</title>
+      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B/cross-attention-%E5%92%8C%E5%BE%AE%E8%B0%83/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B/cross-attention-%E5%92%8C%E5%BE%AE%E8%B0%83/</guid>
+      <description>讨论了 Cross Attention 机制及其在微调中的应用，提供了具体实现和计算过程的示例。</description>
+    </item>
+    <item>
       <title>Intel MacBook 养老系统推荐</title>
       <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/intel-macbook-%E5%85%BB%E8%80%81%E7%B3%BB%E7%BB%9F%E6%8E%A8%E8%8D%90/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
@@ -230,7 +237,7 @@
       <link>https://neuropix.github.io/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/categories/</guid>
-      <description>该分类下共有 28 篇文章。</description>
+      <description>该分类下共有 29 篇文章。</description>
     </item>
     <item>
       <title>分类：技术</title>
@@ -314,7 +321,7 @@
       <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%88%86%E7%B1%BB%E7%A7%91%E7%A0%94/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%88%86%E7%B1%BB%E7%A7%91%E7%A0%94/</guid>
-      <description>该分类下共有 7 篇文章。</description>
+      <description>该分类下共有 8 篇文章。</description>
     </item>
     <item>
       <title>分类：科研/其他</title>
@@ -322,6 +329,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%88%86%E7%B1%BB%E5%85%B6%E4%BB%96/</guid>
       <description>该分类下共有 3 篇文章。</description>
+    </item>
+    <item>
+      <title>分类：科研/基础模型</title>
+      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B/%E5%88%86%E7%B1%BB%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B/%E5%88%86%E7%B1%BB%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B/</guid>
+      <description>该分类下共有 1 篇文章。</description>
     </item>
     <item>
       <title>分类：科研/生成式</title>
