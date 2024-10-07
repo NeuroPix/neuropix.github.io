@@ -6,8 +6,22 @@
     <description>Recent content in Home on NeuroPix</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2024 00:46:06 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://neuropix.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intel MacBook 养老系统推荐</title>
+      <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/intel-macbook-%E5%85%BB%E8%80%81%E7%B3%BB%E7%BB%9F%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/intel-macbook-%E5%85%BB%E8%80%81%E7%B3%BB%E7%BB%9F%E6%8E%A8%E8%8D%90/</guid>
+      <description>本文推荐适合 Intel MacBook 的养老系统，并探讨使用过程中的一些软件兼容性问题。</description>
+    </item>
+    <item>
+      <title>常用镜像站指南</title>
+      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%B8%B8%E7%94%A8%E9%95%9C%E5%83%8F%E7%AB%99/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%B8%B8%E7%94%A8%E9%95%9C%E5%83%8F%E7%AB%99/</guid>
+      <description>一文汇总常用的镜像站与加速工具，助你快速访问 Hugging Face、GitHub 等平台。</description>
+    </item>
     <item>
       <title>GitHub 使用指南</title>
       <link>https://neuropix.github.io/posts/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/github-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
@@ -209,7 +223,7 @@
       <link>https://neuropix.github.io/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/categories/</guid>
-      <description>该分类下共有 26 篇文章。</description>
+      <description>该分类下共有 27 篇文章。</description>
     </item>
     <item>
       <title>分类：技术</title>
@@ -244,7 +258,7 @@
       <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E5%88%86%E7%B1%BB%E7%94%9F%E6%B4%BB/</guid>
-      <description>该分类下共有 11 篇文章。</description>
+      <description>该分类下共有 12 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/摄影</title>
@@ -265,7 +279,7 @@
       <link>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neuropix.github.io/posts/%E7%94%9F%E6%B4%BB/%E6%95%B0%E7%A0%81/%E5%88%86%E7%B1%BB%E6%95%B0%E7%A0%81/</guid>
-      <description>该分类下共有 3 篇文章。</description>
+      <description>该分类下共有 4 篇文章。</description>
     </item>
     <item>
       <title>分类：生活/日记</title>

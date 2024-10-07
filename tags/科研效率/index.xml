@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>科研效率 on NeuroPix</title>
+    <link>https://neuropix.github.io/tags/%E7%A7%91%E7%A0%94%E6%95%88%E7%8E%87/</link>
+    <description>Recent content in 科研效率 on NeuroPix</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://neuropix.github.io/tags/%E7%A7%91%E7%A0%94%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用镜像站指南</title>
+      <link>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%B8%B8%E7%94%A8%E9%95%9C%E5%83%8F%E7%AB%99/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://neuropix.github.io/posts/%E7%A7%91%E7%A0%94/%E5%85%B6%E4%BB%96/%E5%B8%B8%E7%94%A8%E9%95%9C%E5%83%8F%E7%AB%99/</guid>
+      <description>一文汇总常用的镜像站与加速工具，助你快速访问 Hugging Face、GitHub 等平台。</description>
+    </item>
+  </channel>
+</rss>
